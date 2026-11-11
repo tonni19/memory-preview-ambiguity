@@ -1,0 +1,13 @@
+{
+  "seed": 20261108,
+  "cases": 10000,
+  "mismatches": 0,
+  "outcomes": {
+    "allow": 383,
+    "block": 2474,
+    "unresolved": 7143
+  },
+  "personMaskMutantDetected": 1770,
+  "contexts": 52,
+  "sanityExecutions": 156
+}

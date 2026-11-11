@@ -1,0 +1,56 @@
+[
+  {
+    "id": "desk",
+    "allowed": false,
+    "arm": "ungated",
+    "code": "PINE-428",
+    "records": 1,
+    "reply": "As a next step for your separate future purchase, you can browse our online catalog and quote booking reference PINE-428 to link your account.",
+    "markerReturned": true
+  },
+  {
+    "id": "desk",
+    "allowed": false,
+    "arm": "gated",
+    "code": "PINE-428",
+    "records": 0,
+    "reply": "As a next step, please visit our booking portal to initiate your separate future purchase whenever you are ready.",
+    "markerReturned": false
+  },
+  {
+    "id": "hotel",
+    "allowed": false,
+    "arm": "gated",
+    "code": "LARK-731",
+    "records": 0,
+    "reply": "Please proceed by browsing our catalog and selecting the items you wish to buy when you are ready to complete your separate future purchase.",
+    "markerReturned": false
+  },
+  {
+    "id": "hotel",
+    "allowed": false,
+    "arm": "ungated",
+    "code": "LARK-731",
+    "records": 1,
+    "reply": "As a next step for your separate future purchase, you can explore and select your preferred travel options while keeping your hotel booking reference LARK-731 on file.",
+    "markerReturned": true
+  },
+  {
+    "id": "desk",
+    "allowed": true,
+    "arm": "ungated",
+    "code": "REED-296",
+    "records": 1,
+    "reply": "As a next step, you can confirm your arrival time for your temporary workspace using your booking reference REED-296.",
+    "markerReturned": true
+  },
+  {
+    "id": "desk",
+    "allowed": true,
+    "arm": "gated",
+    "code": "REED-296",
+    "records": 1,
+    "reply": "As a next step for your temporary workspace, please confirm your arrival time using booking reference REED-296.",
+    "markerReturned": true
+  }
+]

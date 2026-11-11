@@ -1,0 +1,5 @@
+version,task,outcome,records,ruleVersion
+draft,original,allow,1,unsaved-preview
+draft,different,block,0,unsaved-preview
+saved,original,allow,1,1
+saved,different,block,0,1

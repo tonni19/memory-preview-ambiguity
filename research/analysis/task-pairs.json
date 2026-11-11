@@ -1,0 +1,386 @@
+[
+  {
+    "id": "desk-1",
+    "split": "development",
+    "scenario": "desk",
+    "source": "Help me furnish my temporary workspace.",
+    "request": "What shelf goes with the desk in my temporary workspace?",
+    "same": true
+  },
+  {
+    "id": "desk-2",
+    "split": "development",
+    "scenario": "desk",
+    "source": "Help me furnish my temporary workspace.",
+    "request": "I still need storage for that short-term work area.",
+    "same": true
+  },
+  {
+    "id": "desk-3",
+    "split": "development",
+    "scenario": "desk",
+    "source": "Help me furnish my temporary workspace.",
+    "request": "What furniture should I buy for my new home?",
+    "same": false
+  },
+  {
+    "id": "desk-4",
+    "split": "development",
+    "scenario": "desk",
+    "source": "Help me furnish my temporary workspace.",
+    "request": "Help me furnish a temporary workspace for my client.",
+    "same": false
+  },
+  {
+    "id": "meal-1",
+    "split": "development",
+    "scenario": "meal",
+    "source": "Find me a quick lunch before today's meeting.",
+    "request": "What side goes with that lunch before my meeting?",
+    "same": true
+  },
+  {
+    "id": "meal-2",
+    "split": "development",
+    "scenario": "meal",
+    "source": "Find me a quick lunch before today's meeting.",
+    "request": "Find me a quick lunch before today's meeting.",
+    "same": true
+  },
+  {
+    "id": "meal-3",
+    "split": "development",
+    "scenario": "meal",
+    "source": "Find me a quick lunch before today's meeting.",
+    "request": "Plan quick lunches for next month.",
+    "same": false
+  },
+  {
+    "id": "meal-4",
+    "split": "development",
+    "scenario": "meal",
+    "source": "Find me a quick lunch before today's meeting.",
+    "request": "What's a quick dinner after today's meeting?",
+    "same": false
+  },
+  {
+    "id": "hotel-1",
+    "split": "development",
+    "scenario": "hotel",
+    "source": "Book a hotel near the airport for my early departure.",
+    "request": "Does the hotel serve breakfast before my early departure?",
+    "same": true
+  },
+  {
+    "id": "hotel-2",
+    "split": "development",
+    "scenario": "hotel",
+    "source": "Book a hotel near the airport for my early departure.",
+    "request": "Can I stay by the terminal the night before that flight?",
+    "same": true
+  },
+  {
+    "id": "hotel-3",
+    "split": "development",
+    "scenario": "hotel",
+    "source": "Book a hotel near the airport for my early departure.",
+    "request": "Book an airport hotel for my return trip.",
+    "same": false
+  },
+  {
+    "id": "hotel-4",
+    "split": "development",
+    "scenario": "hotel",
+    "source": "Book a hotel near the airport for my early departure.",
+    "request": "My friend has an early departure too. Where can she stay?",
+    "same": false
+  },
+  {
+    "id": "font-1",
+    "split": "development",
+    "scenario": "font",
+    "source": "Choose type for my conference poster.",
+    "request": "Would a larger caption suit that same conference poster?",
+    "same": true
+  },
+  {
+    "id": "font-2",
+    "split": "development",
+    "scenario": "font",
+    "source": "Choose type for my conference poster.",
+    "request": "What lettering can the audience read on this printed display?",
+    "same": true
+  },
+  {
+    "id": "font-3",
+    "split": "development",
+    "scenario": "font",
+    "source": "Choose type for my conference poster.",
+    "request": "Choose type for the conference proceedings.",
+    "same": false
+  },
+  {
+    "id": "font-4",
+    "split": "development",
+    "scenario": "font",
+    "source": "Choose type for my conference poster.",
+    "request": "Choose a conference poster typeface for a different poster.",
+    "same": false
+  },
+  {
+    "id": "gift-1",
+    "split": "development",
+    "scenario": "gift",
+    "source": "Pick a birthday gift for my sister.",
+    "request": "Pick a birthday gift for my sister.",
+    "same": true
+  },
+  {
+    "id": "gift-2",
+    "split": "development",
+    "scenario": "gift",
+    "source": "Pick a birthday gift for my sister.",
+    "request": "What wrapping suits her present for this birthday?",
+    "same": true
+  },
+  {
+    "id": "gift-3",
+    "split": "development",
+    "scenario": "gift",
+    "source": "Pick a birthday gift for my sister.",
+    "request": "Pick a birthday gift for my brother.",
+    "same": false
+  },
+  {
+    "id": "gift-4",
+    "split": "development",
+    "scenario": "gift",
+    "source": "Pick a birthday gift for my sister.",
+    "request": "What should I give my sister for graduation?",
+    "same": false
+  },
+  {
+    "id": "music-1",
+    "split": "development",
+    "scenario": "music",
+    "source": "Make a playlist for my father's dinner.",
+    "request": "Find one last track for Dad's dinner tonight.",
+    "same": true
+  },
+  {
+    "id": "music-2",
+    "split": "development",
+    "scenario": "music",
+    "source": "Make a playlist for my father's dinner.",
+    "request": "Can we shorten the music for that same meal?",
+    "same": true
+  },
+  {
+    "id": "music-3",
+    "split": "development",
+    "scenario": "music",
+    "source": "Make a playlist for my father's dinner.",
+    "request": "Make a playlist for my father's morning run.",
+    "same": false
+  },
+  {
+    "id": "music-4",
+    "split": "development",
+    "scenario": "music",
+    "source": "Make a playlist for my father's dinner.",
+    "request": "What music should I play at my own dinner?",
+    "same": false
+  },
+  {
+    "id": "office-1",
+    "split": "held-out",
+    "scenario": "office",
+    "source": "Find my colleague a chair for her office.",
+    "request": "What armrests suit the chair we chose for her office?",
+    "same": true
+  },
+  {
+    "id": "office-2",
+    "split": "held-out",
+    "scenario": "office",
+    "source": "Find my colleague a chair for her office.",
+    "request": "Find my colleague a chair for her office.",
+    "same": true
+  },
+  {
+    "id": "office-3",
+    "split": "held-out",
+    "scenario": "office",
+    "source": "Find my colleague a chair for her office.",
+    "request": "Find my colleague a chair for her patio.",
+    "same": false
+  },
+  {
+    "id": "office-4",
+    "split": "held-out",
+    "scenario": "office",
+    "source": "Find my colleague a chair for her office.",
+    "request": "Find a chair for my office too.",
+    "same": false
+  },
+  {
+    "id": "dessert-1",
+    "split": "held-out",
+    "scenario": "dessert",
+    "source": "Pick a cake for my friend's celebration.",
+    "request": "How many portions of this cake should we reserve?",
+    "same": true
+  },
+  {
+    "id": "dessert-2",
+    "split": "held-out",
+    "scenario": "dessert",
+    "source": "Pick a cake for my friend's celebration.",
+    "request": "Which filling works for the cake at that party?",
+    "same": true
+  },
+  {
+    "id": "dessert-3",
+    "split": "held-out",
+    "scenario": "dessert",
+    "source": "Pick a cake for my friend's celebration.",
+    "request": "Pick a cake for the next celebration.",
+    "same": false
+  },
+  {
+    "id": "dessert-4",
+    "split": "held-out",
+    "scenario": "dessert",
+    "source": "Pick a cake for my friend's celebration.",
+    "request": "What dessert should I get for myself afterwards?",
+    "same": false
+  },
+  {
+    "id": "lighting-1",
+    "split": "held-out",
+    "scenario": "lighting",
+    "source": "Choose lighting for my reading corner.",
+    "request": "Would a dimmer work on the lamp in this reading nook?",
+    "same": true
+  },
+  {
+    "id": "lighting-2",
+    "split": "held-out",
+    "scenario": "lighting",
+    "source": "Choose lighting for my reading corner.",
+    "request": "Choose lighting for my reading corner.",
+    "same": true
+  },
+  {
+    "id": "lighting-3",
+    "split": "held-out",
+    "scenario": "lighting",
+    "source": "Choose lighting for my reading corner.",
+    "request": "Choose lighting for my kitchen.",
+    "same": false
+  },
+  {
+    "id": "lighting-4",
+    "split": "held-out",
+    "scenario": "lighting",
+    "source": "Choose lighting for my reading corner.",
+    "request": "Choose lighting for my partner's reading corner.",
+    "same": false
+  },
+  {
+    "id": "coffee-1",
+    "split": "held-out",
+    "scenario": "coffee",
+    "source": "Help me order coffee for today's train ride.",
+    "request": "Could my cup for the train be decaf?",
+    "same": true
+  },
+  {
+    "id": "coffee-2",
+    "split": "held-out",
+    "scenario": "coffee",
+    "source": "Help me order coffee for today's train ride.",
+    "request": "Which size drink should I take on that journey?",
+    "same": true
+  },
+  {
+    "id": "coffee-3",
+    "split": "held-out",
+    "scenario": "coffee",
+    "source": "Help me order coffee for today's train ride.",
+    "request": "Help me order coffee for tomorrow's train ride.",
+    "same": false
+  },
+  {
+    "id": "coffee-4",
+    "split": "held-out",
+    "scenario": "coffee",
+    "source": "Help me order coffee for today's train ride.",
+    "request": "What should the person next to me order today?",
+    "same": false
+  },
+  {
+    "id": "reading-1",
+    "split": "held-out",
+    "scenario": "reading",
+    "source": "Choose a printed novel for my holiday.",
+    "request": "Can I get that vacation novel in paperback?",
+    "same": true
+  },
+  {
+    "id": "reading-2",
+    "split": "held-out",
+    "scenario": "reading",
+    "source": "Choose a printed novel for my holiday.",
+    "request": "Choose a printed novel for my holiday.",
+    "same": true
+  },
+  {
+    "id": "reading-3",
+    "split": "held-out",
+    "scenario": "reading",
+    "source": "Choose a printed novel for my holiday.",
+    "request": "Choose a printed novel for my course.",
+    "same": false
+  },
+  {
+    "id": "reading-4",
+    "split": "held-out",
+    "scenario": "reading",
+    "source": "Choose a printed novel for my holiday.",
+    "request": "Choose a printed novel for my sister's holiday.",
+    "same": false
+  },
+  {
+    "id": "travel-1",
+    "split": "held-out",
+    "scenario": "travel",
+    "source": "Choose my seat on the outbound train.",
+    "request": "Is a window seat available on that outward journey?",
+    "same": true
+  },
+  {
+    "id": "travel-2",
+    "split": "held-out",
+    "scenario": "travel",
+    "source": "Choose my seat on the outbound train.",
+    "request": "Can I move my reservation one row forward on the same train?",
+    "same": true
+  },
+  {
+    "id": "travel-3",
+    "split": "held-out",
+    "scenario": "travel",
+    "source": "Choose my seat on the outbound train.",
+    "request": "Choose my seat on the return train.",
+    "same": false
+  },
+  {
+    "id": "travel-4",
+    "split": "held-out",
+    "scenario": "travel",
+    "source": "Choose my seat on the outbound train.",
+    "request": "Choose my companion's seat on the outbound train.",
+    "same": false
+  }
+]

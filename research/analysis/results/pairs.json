@@ -1,0 +1,1514 @@
+[
+  {
+    "id": "desk",
+    "type": "single-choice",
+    "initial": 6,
+    "authored": {
+      "remaining": 4,
+      "bits": 2,
+      "disagreement": 0.125
+    },
+    "adaptive": {
+      "remaining": 2,
+      "bits": 1,
+      "disagreement": 0.0625
+    },
+    "transfer": {
+      "remaining": 2,
+      "bits": 1,
+      "disagreement": 0.125
+    },
+    "random": {
+      "remaining": 4.808333333333334,
+      "bits": 2.1935965630468783,
+      "disagreement": 0.12340277777777807
+    },
+    "randomPairCount": 120,
+    "coherent": 4,
+    "coherentRemaining": 2,
+    "prevented": {
+      "person": "self",
+      "task": "unrelated situation",
+      "purpose": "preference"
+    },
+    "alwaysBlocked": true,
+    "greedy": [
+      {
+        "purpose": "recall",
+        "person": "self",
+        "task": "temporary workspace"
+      },
+      {
+        "purpose": "recommendation",
+        "person": "self",
+        "task": "temporary workspace"
+      }
+    ],
+    "minimax": [
+      {
+        "p": {
+          "purpose": "recall",
+          "person": "self",
+          "task": "temporary workspace"
+        },
+        "q": {
+          "purpose": "recommendation",
+          "person": "self",
+          "task": "temporary workspace"
+        },
+        "worst": 2
+      },
+      {
+        "p": {
+          "purpose": "recall",
+          "person": "self",
+          "task": "temporary workspace"
+        },
+        "q": {
+          "purpose": "recommendation",
+          "person": "self",
+          "task": "another fictional task"
+        },
+        "worst": 2
+      },
+      {
+        "p": {
+          "purpose": "recall",
+          "person": "self",
+          "task": "temporary workspace"
+        },
+        "q": {
+          "purpose": "preference",
+          "person": "self",
+          "task": "temporary workspace"
+        },
+        "worst": 3
+      },
+      {
+        "p": {
+          "purpose": "recommendation",
+          "person": "self",
+          "task": "temporary workspace"
+        },
+        "q": {
+          "purpose": "recommendation",
+          "person": "self",
+          "task": "another fictional task"
+        },
+        "worst": 2
+      },
+      {
+        "p": {
+          "purpose": "recommendation",
+          "person": "self",
+          "task": "temporary workspace"
+        },
+        "q": {
+          "purpose": "preference",
+          "person": "self",
+          "task": "temporary workspace"
+        },
+        "worst": 4
+      },
+      {
+        "p": {
+          "purpose": "recommendation",
+          "person": "self",
+          "task": "another fictional task"
+        },
+        "q": {
+          "purpose": "preference",
+          "person": "self",
+          "task": "temporary workspace"
+        },
+        "worst": 4
+      }
+    ]
+  },
+  {
+    "id": "meal",
+    "type": "single-choice",
+    "initial": 6,
+    "authored": {
+      "remaining": 4,
+      "bits": 2,
+      "disagreement": 0.125
+    },
+    "adaptive": {
+      "remaining": 2,
+      "bits": 1,
+      "disagreement": 0.0625
+    },
+    "transfer": {
+      "remaining": 2,
+      "bits": 1,
+      "disagreement": 0.125
+    },
+    "random": {
+      "remaining": 4.808333333333334,
+      "bits": 2.1935965630468783,
+      "disagreement": 0.12340277777777807
+    },
+    "randomPairCount": 120,
+    "coherent": 4,
+    "coherentRemaining": 2,
+    "prevented": {
+      "person": "self",
+      "task": "unrelated situation",
+      "purpose": "preference"
+    },
+    "alwaysBlocked": true,
+    "greedy": [
+      {
+        "purpose": "recall",
+        "person": "self",
+        "task": "today’s lunch"
+      },
+      {
+        "purpose": "recommendation",
+        "person": "self",
+        "task": "today’s lunch"
+      }
+    ],
+    "minimax": [
+      {
+        "p": {
+          "purpose": "recall",
+          "person": "self",
+          "task": "today’s lunch"
+        },
+        "q": {
+          "purpose": "recommendation",
+          "person": "self",
+          "task": "today’s lunch"
+        },
+        "worst": 2
+      },
+      {
+        "p": {
+          "purpose": "recall",
+          "person": "self",
+          "task": "today’s lunch"
+        },
+        "q": {
+          "purpose": "recommendation",
+          "person": "self",
+          "task": "another fictional task"
+        },
+        "worst": 2
+      },
+      {
+        "p": {
+          "purpose": "recall",
+          "person": "self",
+          "task": "today’s lunch"
+        },
+        "q": {
+          "purpose": "preference",
+          "person": "self",
+          "task": "today’s lunch"
+        },
+        "worst": 3
+      },
+      {
+        "p": {
+          "purpose": "recommendation",
+          "person": "self",
+          "task": "today’s lunch"
+        },
+        "q": {
+          "purpose": "recommendation",
+          "person": "self",
+          "task": "another fictional task"
+        },
+        "worst": 2
+      },
+      {
+        "p": {
+          "purpose": "recommendation",
+          "person": "self",
+          "task": "today’s lunch"
+        },
+        "q": {
+          "purpose": "preference",
+          "person": "self",
+          "task": "today’s lunch"
+        },
+        "worst": 4
+      },
+      {
+        "p": {
+          "purpose": "recommendation",
+          "person": "self",
+          "task": "another fictional task"
+        },
+        "q": {
+          "purpose": "preference",
+          "person": "self",
+          "task": "today’s lunch"
+        },
+        "worst": 4
+      }
+    ]
+  },
+  {
+    "id": "hotel",
+    "type": "single-choice",
+    "initial": 6,
+    "authored": {
+      "remaining": 4,
+      "bits": 2,
+      "disagreement": 0.125
+    },
+    "adaptive": {
+      "remaining": 2,
+      "bits": 1,
+      "disagreement": 0.0625
+    },
+    "transfer": {
+      "remaining": 2,
+      "bits": 1,
+      "disagreement": 0.125
+    },
+    "random": {
+      "remaining": 4.808333333333334,
+      "bits": 2.1935965630468783,
+      "disagreement": 0.12340277777777807
+    },
+    "randomPairCount": 120,
+    "coherent": 4,
+    "coherentRemaining": 2,
+    "prevented": {
+      "person": "self",
+      "task": "unrelated situation",
+      "purpose": "preference"
+    },
+    "alwaysBlocked": true,
+    "greedy": [
+      {
+        "purpose": "recall",
+        "person": "self",
+        "task": "early departure"
+      },
+      {
+        "purpose": "recommendation",
+        "person": "self",
+        "task": "early departure"
+      }
+    ],
+    "minimax": [
+      {
+        "p": {
+          "purpose": "recall",
+          "person": "self",
+          "task": "early departure"
+        },
+        "q": {
+          "purpose": "recommendation",
+          "person": "self",
+          "task": "early departure"
+        },
+        "worst": 2
+      },
+      {
+        "p": {
+          "purpose": "recall",
+          "person": "self",
+          "task": "early departure"
+        },
+        "q": {
+          "purpose": "recommendation",
+          "person": "self",
+          "task": "another fictional task"
+        },
+        "worst": 2
+      },
+      {
+        "p": {
+          "purpose": "recall",
+          "person": "self",
+          "task": "early departure"
+        },
+        "q": {
+          "purpose": "preference",
+          "person": "self",
+          "task": "early departure"
+        },
+        "worst": 3
+      },
+      {
+        "p": {
+          "purpose": "recommendation",
+          "person": "self",
+          "task": "early departure"
+        },
+        "q": {
+          "purpose": "recommendation",
+          "person": "self",
+          "task": "another fictional task"
+        },
+        "worst": 2
+      },
+      {
+        "p": {
+          "purpose": "recommendation",
+          "person": "self",
+          "task": "early departure"
+        },
+        "q": {
+          "purpose": "preference",
+          "person": "self",
+          "task": "early departure"
+        },
+        "worst": 4
+      },
+      {
+        "p": {
+          "purpose": "recommendation",
+          "person": "self",
+          "task": "another fictional task"
+        },
+        "q": {
+          "purpose": "preference",
+          "person": "self",
+          "task": "early departure"
+        },
+        "worst": 4
+      }
+    ]
+  },
+  {
+    "id": "font",
+    "type": "single-choice",
+    "initial": 6,
+    "authored": {
+      "remaining": 4,
+      "bits": 2,
+      "disagreement": 0.125
+    },
+    "adaptive": {
+      "remaining": 2,
+      "bits": 1,
+      "disagreement": 0.0625
+    },
+    "transfer": {
+      "remaining": 2,
+      "bits": 1,
+      "disagreement": 0.125
+    },
+    "random": {
+      "remaining": 4.808333333333334,
+      "bits": 2.1935965630468783,
+      "disagreement": 0.12340277777777807
+    },
+    "randomPairCount": 120,
+    "coherent": 4,
+    "coherentRemaining": 2,
+    "prevented": {
+      "person": "self",
+      "task": "unrelated situation",
+      "purpose": "preference"
+    },
+    "alwaysBlocked": true,
+    "greedy": [
+      {
+        "purpose": "recall",
+        "person": "self",
+        "task": "conference poster"
+      },
+      {
+        "purpose": "recommendation",
+        "person": "self",
+        "task": "conference poster"
+      }
+    ],
+    "minimax": [
+      {
+        "p": {
+          "purpose": "recall",
+          "person": "self",
+          "task": "conference poster"
+        },
+        "q": {
+          "purpose": "recommendation",
+          "person": "self",
+          "task": "conference poster"
+        },
+        "worst": 2
+      },
+      {
+        "p": {
+          "purpose": "recall",
+          "person": "self",
+          "task": "conference poster"
+        },
+        "q": {
+          "purpose": "recommendation",
+          "person": "self",
+          "task": "another fictional task"
+        },
+        "worst": 2
+      },
+      {
+        "p": {
+          "purpose": "recall",
+          "person": "self",
+          "task": "conference poster"
+        },
+        "q": {
+          "purpose": "preference",
+          "person": "self",
+          "task": "conference poster"
+        },
+        "worst": 3
+      },
+      {
+        "p": {
+          "purpose": "recommendation",
+          "person": "self",
+          "task": "conference poster"
+        },
+        "q": {
+          "purpose": "recommendation",
+          "person": "self",
+          "task": "another fictional task"
+        },
+        "worst": 2
+      },
+      {
+        "p": {
+          "purpose": "recommendation",
+          "person": "self",
+          "task": "conference poster"
+        },
+        "q": {
+          "purpose": "preference",
+          "person": "self",
+          "task": "conference poster"
+        },
+        "worst": 4
+      },
+      {
+        "p": {
+          "purpose": "recommendation",
+          "person": "self",
+          "task": "another fictional task"
+        },
+        "q": {
+          "purpose": "preference",
+          "person": "self",
+          "task": "conference poster"
+        },
+        "worst": 4
+      }
+    ]
+  },
+  {
+    "id": "gift",
+    "type": "single-choice",
+    "initial": 6,
+    "authored": {
+      "remaining": 4,
+      "bits": 2,
+      "disagreement": 0.125
+    },
+    "adaptive": {
+      "remaining": 2,
+      "bits": 1,
+      "disagreement": 0.0625
+    },
+    "transfer": {
+      "remaining": 2,
+      "bits": 1,
+      "disagreement": 0.125
+    },
+    "random": {
+      "remaining": 4.808333333333334,
+      "bits": 2.1935965630468783,
+      "disagreement": 0.12340277777777807
+    },
+    "randomPairCount": 120,
+    "coherent": 4,
+    "coherentRemaining": 2,
+    "prevented": {
+      "person": "self",
+      "task": "unrelated situation",
+      "purpose": "recommendation"
+    },
+    "alwaysBlocked": true,
+    "greedy": [
+      {
+        "purpose": "recall",
+        "person": "other",
+        "task": "sister’s birthday"
+      },
+      {
+        "purpose": "recommendation",
+        "person": "other",
+        "task": "sister’s birthday"
+      }
+    ],
+    "minimax": [
+      {
+        "p": {
+          "purpose": "recall",
+          "person": "other",
+          "task": "sister’s birthday"
+        },
+        "q": {
+          "purpose": "recommendation",
+          "person": "other",
+          "task": "sister’s birthday"
+        },
+        "worst": 2
+      },
+      {
+        "p": {
+          "purpose": "recall",
+          "person": "other",
+          "task": "sister’s birthday"
+        },
+        "q": {
+          "purpose": "recommendation",
+          "person": "other",
+          "task": "another fictional task"
+        },
+        "worst": 2
+      },
+      {
+        "p": {
+          "purpose": "recall",
+          "person": "other",
+          "task": "sister’s birthday"
+        },
+        "q": {
+          "purpose": "preference",
+          "person": "other",
+          "task": "sister’s birthday"
+        },
+        "worst": 3
+      },
+      {
+        "p": {
+          "purpose": "recommendation",
+          "person": "other",
+          "task": "sister’s birthday"
+        },
+        "q": {
+          "purpose": "recommendation",
+          "person": "other",
+          "task": "another fictional task"
+        },
+        "worst": 2
+      },
+      {
+        "p": {
+          "purpose": "recommendation",
+          "person": "other",
+          "task": "sister’s birthday"
+        },
+        "q": {
+          "purpose": "preference",
+          "person": "other",
+          "task": "sister’s birthday"
+        },
+        "worst": 4
+      },
+      {
+        "p": {
+          "purpose": "recommendation",
+          "person": "other",
+          "task": "another fictional task"
+        },
+        "q": {
+          "purpose": "preference",
+          "person": "other",
+          "task": "sister’s birthday"
+        },
+        "worst": 4
+      }
+    ]
+  },
+  {
+    "id": "music",
+    "type": "single-choice",
+    "initial": 6,
+    "authored": {
+      "remaining": 4,
+      "bits": 2,
+      "disagreement": 0.125
+    },
+    "adaptive": {
+      "remaining": 2,
+      "bits": 1,
+      "disagreement": 0.0625
+    },
+    "transfer": {
+      "remaining": 2,
+      "bits": 1,
+      "disagreement": 0.125
+    },
+    "random": {
+      "remaining": 4.808333333333334,
+      "bits": 2.1935965630468783,
+      "disagreement": 0.12340277777777807
+    },
+    "randomPairCount": 120,
+    "coherent": 4,
+    "coherentRemaining": 2,
+    "prevented": {
+      "person": "self",
+      "task": "unrelated situation",
+      "purpose": "recommendation"
+    },
+    "alwaysBlocked": true,
+    "greedy": [
+      {
+        "purpose": "recall",
+        "person": "other",
+        "task": "father’s dinner"
+      },
+      {
+        "purpose": "recommendation",
+        "person": "other",
+        "task": "father’s dinner"
+      }
+    ],
+    "minimax": [
+      {
+        "p": {
+          "purpose": "recall",
+          "person": "other",
+          "task": "father’s dinner"
+        },
+        "q": {
+          "purpose": "recommendation",
+          "person": "other",
+          "task": "father’s dinner"
+        },
+        "worst": 2
+      },
+      {
+        "p": {
+          "purpose": "recall",
+          "person": "other",
+          "task": "father’s dinner"
+        },
+        "q": {
+          "purpose": "recommendation",
+          "person": "other",
+          "task": "another fictional task"
+        },
+        "worst": 2
+      },
+      {
+        "p": {
+          "purpose": "recall",
+          "person": "other",
+          "task": "father’s dinner"
+        },
+        "q": {
+          "purpose": "preference",
+          "person": "other",
+          "task": "father’s dinner"
+        },
+        "worst": 3
+      },
+      {
+        "p": {
+          "purpose": "recommendation",
+          "person": "other",
+          "task": "father’s dinner"
+        },
+        "q": {
+          "purpose": "recommendation",
+          "person": "other",
+          "task": "another fictional task"
+        },
+        "worst": 2
+      },
+      {
+        "p": {
+          "purpose": "recommendation",
+          "person": "other",
+          "task": "father’s dinner"
+        },
+        "q": {
+          "purpose": "preference",
+          "person": "other",
+          "task": "father’s dinner"
+        },
+        "worst": 4
+      },
+      {
+        "p": {
+          "purpose": "recommendation",
+          "person": "other",
+          "task": "another fictional task"
+        },
+        "q": {
+          "purpose": "preference",
+          "person": "other",
+          "task": "father’s dinner"
+        },
+        "worst": 4
+      }
+    ]
+  },
+  {
+    "id": "office",
+    "type": "single-choice",
+    "initial": 6,
+    "authored": {
+      "remaining": 4,
+      "bits": 2,
+      "disagreement": 0.125
+    },
+    "adaptive": {
+      "remaining": 2,
+      "bits": 1,
+      "disagreement": 0.0625
+    },
+    "transfer": {
+      "remaining": 2,
+      "bits": 1,
+      "disagreement": 0.125
+    },
+    "random": {
+      "remaining": 4.808333333333334,
+      "bits": 2.1935965630468783,
+      "disagreement": 0.12340277777777807
+    },
+    "randomPairCount": 120,
+    "coherent": 4,
+    "coherentRemaining": 2,
+    "prevented": {
+      "person": "self",
+      "task": "unrelated situation",
+      "purpose": "recommendation"
+    },
+    "alwaysBlocked": true,
+    "greedy": [
+      {
+        "purpose": "recall",
+        "person": "other",
+        "task": "colleague’s office"
+      },
+      {
+        "purpose": "recommendation",
+        "person": "other",
+        "task": "colleague’s office"
+      }
+    ],
+    "minimax": [
+      {
+        "p": {
+          "purpose": "recall",
+          "person": "other",
+          "task": "colleague’s office"
+        },
+        "q": {
+          "purpose": "recommendation",
+          "person": "other",
+          "task": "colleague’s office"
+        },
+        "worst": 2
+      },
+      {
+        "p": {
+          "purpose": "recall",
+          "person": "other",
+          "task": "colleague’s office"
+        },
+        "q": {
+          "purpose": "recommendation",
+          "person": "other",
+          "task": "another fictional task"
+        },
+        "worst": 2
+      },
+      {
+        "p": {
+          "purpose": "recall",
+          "person": "other",
+          "task": "colleague’s office"
+        },
+        "q": {
+          "purpose": "preference",
+          "person": "other",
+          "task": "colleague’s office"
+        },
+        "worst": 3
+      },
+      {
+        "p": {
+          "purpose": "recommendation",
+          "person": "other",
+          "task": "colleague’s office"
+        },
+        "q": {
+          "purpose": "recommendation",
+          "person": "other",
+          "task": "another fictional task"
+        },
+        "worst": 2
+      },
+      {
+        "p": {
+          "purpose": "recommendation",
+          "person": "other",
+          "task": "colleague’s office"
+        },
+        "q": {
+          "purpose": "preference",
+          "person": "other",
+          "task": "colleague’s office"
+        },
+        "worst": 4
+      },
+      {
+        "p": {
+          "purpose": "recommendation",
+          "person": "other",
+          "task": "another fictional task"
+        },
+        "q": {
+          "purpose": "preference",
+          "person": "other",
+          "task": "colleague’s office"
+        },
+        "worst": 4
+      }
+    ]
+  },
+  {
+    "id": "dessert",
+    "type": "single-choice",
+    "initial": 6,
+    "authored": {
+      "remaining": 4,
+      "bits": 2,
+      "disagreement": 0.125
+    },
+    "adaptive": {
+      "remaining": 2,
+      "bits": 1,
+      "disagreement": 0.0625
+    },
+    "transfer": {
+      "remaining": 2,
+      "bits": 1,
+      "disagreement": 0.125
+    },
+    "random": {
+      "remaining": 4.808333333333334,
+      "bits": 2.1935965630468783,
+      "disagreement": 0.12340277777777807
+    },
+    "randomPairCount": 120,
+    "coherent": 4,
+    "coherentRemaining": 2,
+    "prevented": {
+      "person": "self",
+      "task": "unrelated situation",
+      "purpose": "recommendation"
+    },
+    "alwaysBlocked": true,
+    "greedy": [
+      {
+        "purpose": "recall",
+        "person": "other",
+        "task": "friend’s celebration"
+      },
+      {
+        "purpose": "recommendation",
+        "person": "other",
+        "task": "friend’s celebration"
+      }
+    ],
+    "minimax": [
+      {
+        "p": {
+          "purpose": "recall",
+          "person": "other",
+          "task": "friend’s celebration"
+        },
+        "q": {
+          "purpose": "recommendation",
+          "person": "other",
+          "task": "friend’s celebration"
+        },
+        "worst": 2
+      },
+      {
+        "p": {
+          "purpose": "recall",
+          "person": "other",
+          "task": "friend’s celebration"
+        },
+        "q": {
+          "purpose": "recommendation",
+          "person": "other",
+          "task": "another fictional task"
+        },
+        "worst": 2
+      },
+      {
+        "p": {
+          "purpose": "recall",
+          "person": "other",
+          "task": "friend’s celebration"
+        },
+        "q": {
+          "purpose": "preference",
+          "person": "other",
+          "task": "friend’s celebration"
+        },
+        "worst": 3
+      },
+      {
+        "p": {
+          "purpose": "recommendation",
+          "person": "other",
+          "task": "friend’s celebration"
+        },
+        "q": {
+          "purpose": "recommendation",
+          "person": "other",
+          "task": "another fictional task"
+        },
+        "worst": 2
+      },
+      {
+        "p": {
+          "purpose": "recommendation",
+          "person": "other",
+          "task": "friend’s celebration"
+        },
+        "q": {
+          "purpose": "preference",
+          "person": "other",
+          "task": "friend’s celebration"
+        },
+        "worst": 4
+      },
+      {
+        "p": {
+          "purpose": "recommendation",
+          "person": "other",
+          "task": "another fictional task"
+        },
+        "q": {
+          "purpose": "preference",
+          "person": "other",
+          "task": "friend’s celebration"
+        },
+        "worst": 4
+      }
+    ]
+  },
+  {
+    "id": "lighting",
+    "type": "explicit-preference",
+    "initial": 12,
+    "authored": {
+      "remaining": 6,
+      "bits": 2.584962500721156,
+      "disagreement": 0.14166666666666666
+    },
+    "adaptive": {
+      "remaining": 3,
+      "bits": 1.584962500721156,
+      "disagreement": 0.08333333333333333
+    },
+    "transfer": {
+      "remaining": 4,
+      "bits": 2,
+      "disagreement": 0.125
+    },
+    "random": {
+      "remaining": 8.95,
+      "bits": 3.0685965630468717,
+      "disagreement": 0.14108630952380943
+    },
+    "randomPairCount": 120,
+    "coherent": 8,
+    "coherentRemaining": 4,
+    "prevented": {
+      "person": "other",
+      "task": "unrelated situation",
+      "purpose": "recommendation"
+    },
+    "alwaysBlocked": true,
+    "greedy": [
+      {
+        "purpose": "recall",
+        "person": "self",
+        "task": "home lighting"
+      },
+      {
+        "purpose": "preference",
+        "person": "self",
+        "task": "home lighting"
+      }
+    ],
+    "minimax": [
+      {
+        "p": {
+          "purpose": "recall",
+          "person": "self",
+          "task": "home lighting"
+        },
+        "q": {
+          "purpose": "recommendation",
+          "person": "self",
+          "task": "home lighting"
+        },
+        "worst": 4
+      },
+      {
+        "p": {
+          "purpose": "recall",
+          "person": "self",
+          "task": "home lighting"
+        },
+        "q": {
+          "purpose": "recommendation",
+          "person": "self",
+          "task": "another fictional task"
+        },
+        "worst": 4
+      },
+      {
+        "p": {
+          "purpose": "recall",
+          "person": "self",
+          "task": "home lighting"
+        },
+        "q": {
+          "purpose": "preference",
+          "person": "self",
+          "task": "home lighting"
+        },
+        "worst": 3
+      },
+      {
+        "p": {
+          "purpose": "recommendation",
+          "person": "self",
+          "task": "home lighting"
+        },
+        "q": {
+          "purpose": "recommendation",
+          "person": "self",
+          "task": "another fictional task"
+        },
+        "worst": 4
+      },
+      {
+        "p": {
+          "purpose": "recommendation",
+          "person": "self",
+          "task": "home lighting"
+        },
+        "q": {
+          "purpose": "preference",
+          "person": "self",
+          "task": "home lighting"
+        },
+        "worst": 4
+      },
+      {
+        "p": {
+          "purpose": "recommendation",
+          "person": "self",
+          "task": "another fictional task"
+        },
+        "q": {
+          "purpose": "preference",
+          "person": "self",
+          "task": "home lighting"
+        },
+        "worst": 4
+      }
+    ]
+  },
+  {
+    "id": "coffee",
+    "type": "explicit-preference",
+    "initial": 12,
+    "authored": {
+      "remaining": 6,
+      "bits": 2.584962500721156,
+      "disagreement": 0.14166666666666666
+    },
+    "adaptive": {
+      "remaining": 3,
+      "bits": 1.584962500721156,
+      "disagreement": 0.08333333333333333
+    },
+    "transfer": {
+      "remaining": 4,
+      "bits": 2,
+      "disagreement": 0.125
+    },
+    "random": {
+      "remaining": 8.95,
+      "bits": 3.0685965630468717,
+      "disagreement": 0.14108630952380943
+    },
+    "randomPairCount": 120,
+    "coherent": 8,
+    "coherentRemaining": 4,
+    "prevented": {
+      "person": "other",
+      "task": "unrelated situation",
+      "purpose": "recommendation"
+    },
+    "alwaysBlocked": true,
+    "greedy": [
+      {
+        "purpose": "recall",
+        "person": "self",
+        "task": "coffee orders"
+      },
+      {
+        "purpose": "preference",
+        "person": "self",
+        "task": "coffee orders"
+      }
+    ],
+    "minimax": [
+      {
+        "p": {
+          "purpose": "recall",
+          "person": "self",
+          "task": "coffee orders"
+        },
+        "q": {
+          "purpose": "recommendation",
+          "person": "self",
+          "task": "coffee orders"
+        },
+        "worst": 4
+      },
+      {
+        "p": {
+          "purpose": "recall",
+          "person": "self",
+          "task": "coffee orders"
+        },
+        "q": {
+          "purpose": "recommendation",
+          "person": "self",
+          "task": "another fictional task"
+        },
+        "worst": 4
+      },
+      {
+        "p": {
+          "purpose": "recall",
+          "person": "self",
+          "task": "coffee orders"
+        },
+        "q": {
+          "purpose": "preference",
+          "person": "self",
+          "task": "coffee orders"
+        },
+        "worst": 3
+      },
+      {
+        "p": {
+          "purpose": "recommendation",
+          "person": "self",
+          "task": "coffee orders"
+        },
+        "q": {
+          "purpose": "recommendation",
+          "person": "self",
+          "task": "another fictional task"
+        },
+        "worst": 4
+      },
+      {
+        "p": {
+          "purpose": "recommendation",
+          "person": "self",
+          "task": "coffee orders"
+        },
+        "q": {
+          "purpose": "preference",
+          "person": "self",
+          "task": "coffee orders"
+        },
+        "worst": 4
+      },
+      {
+        "p": {
+          "purpose": "recommendation",
+          "person": "self",
+          "task": "another fictional task"
+        },
+        "q": {
+          "purpose": "preference",
+          "person": "self",
+          "task": "coffee orders"
+        },
+        "worst": 4
+      }
+    ]
+  },
+  {
+    "id": "reading",
+    "type": "explicit-preference",
+    "initial": 12,
+    "authored": {
+      "remaining": 6,
+      "bits": 2.584962500721156,
+      "disagreement": 0.14166666666666666
+    },
+    "adaptive": {
+      "remaining": 3,
+      "bits": 1.584962500721156,
+      "disagreement": 0.08333333333333333
+    },
+    "transfer": {
+      "remaining": 4,
+      "bits": 2,
+      "disagreement": 0.125
+    },
+    "random": {
+      "remaining": 8.95,
+      "bits": 3.0685965630468717,
+      "disagreement": 0.14108630952380943
+    },
+    "randomPairCount": 120,
+    "coherent": 8,
+    "coherentRemaining": 4,
+    "prevented": {
+      "person": "other",
+      "task": "unrelated situation",
+      "purpose": "recommendation"
+    },
+    "alwaysBlocked": true,
+    "greedy": [
+      {
+        "purpose": "recall",
+        "person": "self",
+        "task": "leisure reading"
+      },
+      {
+        "purpose": "preference",
+        "person": "self",
+        "task": "leisure reading"
+      }
+    ],
+    "minimax": [
+      {
+        "p": {
+          "purpose": "recall",
+          "person": "self",
+          "task": "leisure reading"
+        },
+        "q": {
+          "purpose": "recommendation",
+          "person": "self",
+          "task": "leisure reading"
+        },
+        "worst": 4
+      },
+      {
+        "p": {
+          "purpose": "recall",
+          "person": "self",
+          "task": "leisure reading"
+        },
+        "q": {
+          "purpose": "recommendation",
+          "person": "self",
+          "task": "another fictional task"
+        },
+        "worst": 4
+      },
+      {
+        "p": {
+          "purpose": "recall",
+          "person": "self",
+          "task": "leisure reading"
+        },
+        "q": {
+          "purpose": "preference",
+          "person": "self",
+          "task": "leisure reading"
+        },
+        "worst": 3
+      },
+      {
+        "p": {
+          "purpose": "recommendation",
+          "person": "self",
+          "task": "leisure reading"
+        },
+        "q": {
+          "purpose": "recommendation",
+          "person": "self",
+          "task": "another fictional task"
+        },
+        "worst": 4
+      },
+      {
+        "p": {
+          "purpose": "recommendation",
+          "person": "self",
+          "task": "leisure reading"
+        },
+        "q": {
+          "purpose": "preference",
+          "person": "self",
+          "task": "leisure reading"
+        },
+        "worst": 4
+      },
+      {
+        "p": {
+          "purpose": "recommendation",
+          "person": "self",
+          "task": "another fictional task"
+        },
+        "q": {
+          "purpose": "preference",
+          "person": "self",
+          "task": "leisure reading"
+        },
+        "worst": 4
+      }
+    ]
+  },
+  {
+    "id": "travel",
+    "type": "explicit-preference",
+    "initial": 12,
+    "authored": {
+      "remaining": 6,
+      "bits": 2.584962500721156,
+      "disagreement": 0.14166666666666666
+    },
+    "adaptive": {
+      "remaining": 3,
+      "bits": 1.584962500721156,
+      "disagreement": 0.08333333333333333
+    },
+    "transfer": {
+      "remaining": 4,
+      "bits": 2,
+      "disagreement": 0.125
+    },
+    "random": {
+      "remaining": 8.95,
+      "bits": 3.0685965630468717,
+      "disagreement": 0.14108630952380943
+    },
+    "randomPairCount": 120,
+    "coherent": 8,
+    "coherentRemaining": 4,
+    "prevented": {
+      "person": "other",
+      "task": "unrelated situation",
+      "purpose": "recommendation"
+    },
+    "alwaysBlocked": true,
+    "greedy": [
+      {
+        "purpose": "recall",
+        "person": "self",
+        "task": "train trips"
+      },
+      {
+        "purpose": "preference",
+        "person": "self",
+        "task": "train trips"
+      }
+    ],
+    "minimax": [
+      {
+        "p": {
+          "purpose": "recall",
+          "person": "self",
+          "task": "train trips"
+        },
+        "q": {
+          "purpose": "recommendation",
+          "person": "self",
+          "task": "train trips"
+        },
+        "worst": 4
+      },
+      {
+        "p": {
+          "purpose": "recall",
+          "person": "self",
+          "task": "train trips"
+        },
+        "q": {
+          "purpose": "recommendation",
+          "person": "self",
+          "task": "another fictional task"
+        },
+        "worst": 4
+      },
+      {
+        "p": {
+          "purpose": "recall",
+          "person": "self",
+          "task": "train trips"
+        },
+        "q": {
+          "purpose": "preference",
+          "person": "self",
+          "task": "train trips"
+        },
+        "worst": 3
+      },
+      {
+        "p": {
+          "purpose": "recommendation",
+          "person": "self",
+          "task": "train trips"
+        },
+        "q": {
+          "purpose": "recommendation",
+          "person": "self",
+          "task": "another fictional task"
+        },
+        "worst": 4
+      },
+      {
+        "p": {
+          "purpose": "recommendation",
+          "person": "self",
+          "task": "train trips"
+        },
+        "q": {
+          "purpose": "preference",
+          "person": "self",
+          "task": "train trips"
+        },
+        "worst": 4
+      },
+      {
+        "p": {
+          "purpose": "recommendation",
+          "person": "self",
+          "task": "another fictional task"
+        },
+        "q": {
+          "purpose": "preference",
+          "person": "self",
+          "task": "train trips"
+        },
+        "worst": 4
+      }
+    ]
+  }
+]

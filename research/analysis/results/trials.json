@@ -1,0 +1,30 @@
+[
+  {
+    "version": "draft",
+    "task": "original",
+    "outcome": "allow",
+    "records": 1,
+    "ruleVersion": "unsaved-preview"
+  },
+  {
+    "version": "draft",
+    "task": "different",
+    "outcome": "block",
+    "records": 0,
+    "ruleVersion": "unsaved-preview"
+  },
+  {
+    "version": "saved",
+    "task": "original",
+    "outcome": "allow",
+    "records": 1,
+    "ruleVersion": 1
+  },
+  {
+    "version": "saved",
+    "task": "different",
+    "outcome": "block",
+    "records": 0,
+    "ruleVersion": 1
+  }
+]

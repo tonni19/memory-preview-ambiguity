@@ -1,0 +1,1 @@
+{"hash":"464f2d6c85dd474b75f40be83ec45420861cc7061101c3bb22b7e00995f2082e","response":{"model":"google/gemini-3.8-flash","usage":{"cost":0.00236325,"prompt_tokens":276,"completion_tokens":575,"total_tokens":851},"choices":[{"finish_reason":"stop","message":{"content":"[0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0]"}}]}}

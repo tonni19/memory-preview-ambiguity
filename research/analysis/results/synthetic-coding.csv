@@ -1,0 +1,49 @@
+﻿review_id,split,source,request,ai_decision,ai_rationale,provisional,agrees
+R01,held-out,Choose lighting for my reading corner.,Choose lighting for my kitchen.,different,The kitchen is a different room from the reading corner.,different,True
+R02,development,Choose type for my conference poster.,What lettering can the audience read on this printed display?,same,"In context, this printed display refers back to the conference poster. Lettering legibility continues the typography task.",same,True
+R03,development,Pick a birthday gift for my sister.,Pick a birthday gift for my brother.,different,The gift is for the brother instead of the sister.,different,True
+R04,held-out,Choose a printed novel for my holiday.,Choose a printed novel for my course.,different,The course replaces the holiday as the reason for choosing a book.,different,True
+R05,development,Choose type for my conference poster.,Choose type for the conference proceedings.,different,The proceedings and the poster are distinct publications.,different,True
+R06,held-out,Choose my seat on the outbound train.,Choose my seat on the return train.,different,The return journey has a separate seat assignment.,different,True
+R07,held-out,Pick a cake for my friend's celebration.,What dessert should I get for myself afterwards?,different,A dessert for the speaker afterwards changes both recipient and occasion.,different,True
+R08,held-out,Find my colleague a chair for her office.,What armrests suit the chair we chose for her office?,same,The armrests are a detail of the colleague's chosen office chair.,same,True
+R09,development,Make a playlist for my father's dinner.,What music should I play at my own dinner?,different,The new dinner is the speaker's own occasion.,different,True
+R10,held-out,Choose my seat on the outbound train.,Is a window seat available on that outward journey?,same,The window seat is requested on that outward journey.,same,True
+R11,development,Book a hotel near the airport for my early departure.,Does the hotel serve breakfast before my early departure?,same,Breakfast timing is a constraint on the stay for the same early departure.,same,True
+R12,development,Help me furnish my temporary workspace.,I still need storage for that short-term work area.,same,Storage is part of furnishing that same short-term work area.,same,True
+R13,development,Choose type for my conference poster.,Choose a conference poster typeface for a different poster.,different,The request explicitly identifies a different poster.,different,True
+R14,held-out,Choose lighting for my reading corner.,Choose lighting for my partner's reading corner.,different,The partner's reading corner changes whose space is being furnished.,different,True
+R15,held-out,Help me order coffee for today's train ride.,Help me order coffee for tomorrow's train ride.,different,Tomorrow's journey is a separate occasion.,different,True
+R16,development,Find me a quick lunch before today's meeting.,Find me a quick lunch before today's meeting.,same,The same wording identifies the same lunch and meeting.,same,True
+R17,held-out,Find my colleague a chair for her office.,Find a chair for my office too.,different,The speaker's office replaces the colleague's office.,different,True
+R18,held-out,Choose a printed novel for my holiday.,Choose a printed novel for my sister's holiday.,different,The holiday reader changes to the sister.,different,True
+R19,held-out,Pick a cake for my friend's celebration.,Which filling works for the cake at that party?,same,The filling is for the previously mentioned cake and party.,same,True
+R20,development,Pick a birthday gift for my sister.,What wrapping suits her present for this birthday?,same,Wrapping is a follow-up for her present on this birthday.,same,True
+R21,held-out,Choose lighting for my reading corner.,Would a dimmer work on the lamp in this reading nook?,same,The dimmer is for the lamp in the same reading nook.,same,True
+R22,held-out,Choose a printed novel for my holiday.,Can I get that vacation novel in paperback?,same,Paperback is a format choice for that vacation novel.,same,True
+R23,held-out,Choose lighting for my reading corner.,Choose lighting for my reading corner.,same,The same wording specifies the speaker's reading corner.,same,True
+R24,held-out,Pick a cake for my friend's celebration.,How many portions of this cake should we reserve?,same,Portion count concerns the cake already under discussion.,same,True
+R25,development,Help me furnish my temporary workspace.,Help me furnish a temporary workspace for my client.,different,The client becomes the beneficiary of the workspace.,different,True
+R26,held-out,Choose my seat on the outbound train.,Can I move my reservation one row forward on the same train?,same,Moving the existing reservation on the same train continues seat selection.,same,True
+R27,held-out,Choose my seat on the outbound train.,Choose my companion's seat on the outbound train.,different,The companion needs a separate seat.,different,True
+R28,development,Find me a quick lunch before today's meeting.,What's a quick dinner after today's meeting?,different,Dinner after the meeting replaces lunch before it.,different,True
+R29,held-out,Find my colleague a chair for her office.,Find my colleague a chair for her patio.,different,Moving from an office chair to a patio chair changes the furnishing task.,different,True
+R30,development,Find me a quick lunch before today's meeting.,What side goes with that lunch before my meeting?,same,The side dish belongs to that lunch before the meeting.,same,True
+R31,development,Book a hotel near the airport for my early departure.,Can I stay by the terminal the night before that flight?,same,That flight links the terminal stay to the same upcoming departure.,same,True
+R32,held-out,Pick a cake for my friend's celebration.,Pick a cake for the next celebration.,different,The next celebration is a different occasion.,different,True
+R33,held-out,Choose a printed novel for my holiday.,Choose a printed novel for my holiday.,same,The holiday reading request is repeated verbatim.,same,True
+R34,development,Help me furnish my temporary workspace.,What furniture should I buy for my new home?,different,Furnishing a new home changes the project from the temporary workspace.,different,True
+R35,development,Book a hotel near the airport for my early departure.,Book an airport hotel for my return trip.,different,A hotel on the return trip serves a separate stay.,different,True
+R36,development,Help me furnish my temporary workspace.,What shelf goes with the desk in my temporary workspace?,same,A matching shelf advances the same workspace furnishing project.,same,True
+R37,development,Make a playlist for my father's dinner.,Make a playlist for my father's morning run.,different,A morning run is a different use for the playlist.,different,True
+R38,development,Find me a quick lunch before today's meeting.,Plan quick lunches for next month.,different,Planning a month of lunches expands beyond the single meal.,different,True
+R39,development,Pick a birthday gift for my sister.,What should I give my sister for graduation?,different,Graduation replaces the birthday occasion.,different,True
+R40,development,Book a hotel near the airport for my early departure.,My friend has an early departure too. Where can she stay?,different,The friend is the new traveler and beneficiary.,different,True
+R41,held-out,Find my colleague a chair for her office.,Find my colleague a chair for her office.,same,"The chair, office and beneficiary are repeated verbatim.",same,True
+R42,development,Make a playlist for my father's dinner.,Find one last track for Dad's dinner tonight.,same,One last track completes the father's dinner playlist.,same,True
+R43,held-out,Help me order coffee for today's train ride.,What should the person next to me order today?,different,The other passenger is ordering for themselves.,different,True
+R44,development,Make a playlist for my father's dinner.,Can we shorten the music for that same meal?,same,Shortening the music for that meal revises the existing playlist.,same,True
+R45,held-out,Help me order coffee for today's train ride.,Could my cup for the train be decaf?,same,Decaf modifies the coffee for the previously mentioned train ride.,same,True
+R46,development,Pick a birthday gift for my sister.,Pick a birthday gift for my sister.,same,The sister's birthday gift request is repeated verbatim.,same,True
+R47,held-out,Help me order coffee for today's train ride.,Which size drink should I take on that journey?,same,"In context, the drink size is a detail of the order for that same journey.",same,True
+R48,development,Choose type for my conference poster.,Would a larger caption suit that same conference poster?,same,The caption size is a typography detail on the same poster.,same,True

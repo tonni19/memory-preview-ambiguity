@@ -1,0 +1,422 @@
+[
+  {
+    "scenario": "desk",
+    "type": "single-choice",
+    "stage": "coherent",
+    "space": 4,
+    "remaining": 2
+  },
+  {
+    "scenario": "desk",
+    "type": "single-choice",
+    "stage": "expiry",
+    "space": 7,
+    "remaining": 4
+  },
+  {
+    "scenario": "desk",
+    "type": "single-choice",
+    "stage": "preference scope",
+    "space": 7,
+    "remaining": 4
+  },
+  {
+    "scenario": "desk",
+    "type": "single-choice",
+    "stage": "delegation",
+    "space": 13,
+    "remaining": 8
+  },
+  {
+    "scenario": "desk",
+    "type": "single-choice",
+    "stage": "follow-up",
+    "space": 25,
+    "remaining": 16
+  },
+  {
+    "scenario": "meal",
+    "type": "single-choice",
+    "stage": "coherent",
+    "space": 4,
+    "remaining": 2
+  },
+  {
+    "scenario": "meal",
+    "type": "single-choice",
+    "stage": "expiry",
+    "space": 7,
+    "remaining": 4
+  },
+  {
+    "scenario": "meal",
+    "type": "single-choice",
+    "stage": "preference scope",
+    "space": 7,
+    "remaining": 4
+  },
+  {
+    "scenario": "meal",
+    "type": "single-choice",
+    "stage": "delegation",
+    "space": 13,
+    "remaining": 8
+  },
+  {
+    "scenario": "meal",
+    "type": "single-choice",
+    "stage": "follow-up",
+    "space": 25,
+    "remaining": 16
+  },
+  {
+    "scenario": "hotel",
+    "type": "single-choice",
+    "stage": "coherent",
+    "space": 4,
+    "remaining": 2
+  },
+  {
+    "scenario": "hotel",
+    "type": "single-choice",
+    "stage": "expiry",
+    "space": 7,
+    "remaining": 4
+  },
+  {
+    "scenario": "hotel",
+    "type": "single-choice",
+    "stage": "preference scope",
+    "space": 7,
+    "remaining": 4
+  },
+  {
+    "scenario": "hotel",
+    "type": "single-choice",
+    "stage": "delegation",
+    "space": 13,
+    "remaining": 8
+  },
+  {
+    "scenario": "hotel",
+    "type": "single-choice",
+    "stage": "follow-up",
+    "space": 25,
+    "remaining": 16
+  },
+  {
+    "scenario": "font",
+    "type": "single-choice",
+    "stage": "coherent",
+    "space": 4,
+    "remaining": 2
+  },
+  {
+    "scenario": "font",
+    "type": "single-choice",
+    "stage": "expiry",
+    "space": 7,
+    "remaining": 4
+  },
+  {
+    "scenario": "font",
+    "type": "single-choice",
+    "stage": "preference scope",
+    "space": 7,
+    "remaining": 4
+  },
+  {
+    "scenario": "font",
+    "type": "single-choice",
+    "stage": "delegation",
+    "space": 13,
+    "remaining": 8
+  },
+  {
+    "scenario": "font",
+    "type": "single-choice",
+    "stage": "follow-up",
+    "space": 25,
+    "remaining": 16
+  },
+  {
+    "scenario": "gift",
+    "type": "single-choice",
+    "stage": "coherent",
+    "space": 4,
+    "remaining": 2
+  },
+  {
+    "scenario": "gift",
+    "type": "single-choice",
+    "stage": "expiry",
+    "space": 7,
+    "remaining": 4
+  },
+  {
+    "scenario": "gift",
+    "type": "single-choice",
+    "stage": "preference scope",
+    "space": 7,
+    "remaining": 4
+  },
+  {
+    "scenario": "gift",
+    "type": "single-choice",
+    "stage": "delegation",
+    "space": 13,
+    "remaining": 8
+  },
+  {
+    "scenario": "gift",
+    "type": "single-choice",
+    "stage": "follow-up",
+    "space": 25,
+    "remaining": 16
+  },
+  {
+    "scenario": "music",
+    "type": "single-choice",
+    "stage": "coherent",
+    "space": 4,
+    "remaining": 2
+  },
+  {
+    "scenario": "music",
+    "type": "single-choice",
+    "stage": "expiry",
+    "space": 7,
+    "remaining": 4
+  },
+  {
+    "scenario": "music",
+    "type": "single-choice",
+    "stage": "preference scope",
+    "space": 7,
+    "remaining": 4
+  },
+  {
+    "scenario": "music",
+    "type": "single-choice",
+    "stage": "delegation",
+    "space": 13,
+    "remaining": 8
+  },
+  {
+    "scenario": "music",
+    "type": "single-choice",
+    "stage": "follow-up",
+    "space": 25,
+    "remaining": 16
+  },
+  {
+    "scenario": "office",
+    "type": "single-choice",
+    "stage": "coherent",
+    "space": 4,
+    "remaining": 2
+  },
+  {
+    "scenario": "office",
+    "type": "single-choice",
+    "stage": "expiry",
+    "space": 7,
+    "remaining": 4
+  },
+  {
+    "scenario": "office",
+    "type": "single-choice",
+    "stage": "preference scope",
+    "space": 7,
+    "remaining": 4
+  },
+  {
+    "scenario": "office",
+    "type": "single-choice",
+    "stage": "delegation",
+    "space": 13,
+    "remaining": 8
+  },
+  {
+    "scenario": "office",
+    "type": "single-choice",
+    "stage": "follow-up",
+    "space": 25,
+    "remaining": 16
+  },
+  {
+    "scenario": "dessert",
+    "type": "single-choice",
+    "stage": "coherent",
+    "space": 4,
+    "remaining": 2
+  },
+  {
+    "scenario": "dessert",
+    "type": "single-choice",
+    "stage": "expiry",
+    "space": 7,
+    "remaining": 4
+  },
+  {
+    "scenario": "dessert",
+    "type": "single-choice",
+    "stage": "preference scope",
+    "space": 7,
+    "remaining": 4
+  },
+  {
+    "scenario": "dessert",
+    "type": "single-choice",
+    "stage": "delegation",
+    "space": 13,
+    "remaining": 8
+  },
+  {
+    "scenario": "dessert",
+    "type": "single-choice",
+    "stage": "follow-up",
+    "space": 25,
+    "remaining": 16
+  },
+  {
+    "scenario": "lighting",
+    "type": "explicit-preference",
+    "stage": "coherent",
+    "space": 8,
+    "remaining": 4
+  },
+  {
+    "scenario": "lighting",
+    "type": "explicit-preference",
+    "stage": "expiry",
+    "space": 15,
+    "remaining": 8
+  },
+  {
+    "scenario": "lighting",
+    "type": "explicit-preference",
+    "stage": "preference scope",
+    "space": 23,
+    "remaining": 16
+  },
+  {
+    "scenario": "lighting",
+    "type": "explicit-preference",
+    "stage": "delegation",
+    "space": 41,
+    "remaining": 28
+  },
+  {
+    "scenario": "lighting",
+    "type": "explicit-preference",
+    "stage": "follow-up",
+    "space": 77,
+    "remaining": 52
+  },
+  {
+    "scenario": "coffee",
+    "type": "explicit-preference",
+    "stage": "coherent",
+    "space": 8,
+    "remaining": 4
+  },
+  {
+    "scenario": "coffee",
+    "type": "explicit-preference",
+    "stage": "expiry",
+    "space": 15,
+    "remaining": 8
+  },
+  {
+    "scenario": "coffee",
+    "type": "explicit-preference",
+    "stage": "preference scope",
+    "space": 23,
+    "remaining": 16
+  },
+  {
+    "scenario": "coffee",
+    "type": "explicit-preference",
+    "stage": "delegation",
+    "space": 41,
+    "remaining": 28
+  },
+  {
+    "scenario": "coffee",
+    "type": "explicit-preference",
+    "stage": "follow-up",
+    "space": 77,
+    "remaining": 52
+  },
+  {
+    "scenario": "reading",
+    "type": "explicit-preference",
+    "stage": "coherent",
+    "space": 8,
+    "remaining": 4
+  },
+  {
+    "scenario": "reading",
+    "type": "explicit-preference",
+    "stage": "expiry",
+    "space": 15,
+    "remaining": 8
+  },
+  {
+    "scenario": "reading",
+    "type": "explicit-preference",
+    "stage": "preference scope",
+    "space": 23,
+    "remaining": 16
+  },
+  {
+    "scenario": "reading",
+    "type": "explicit-preference",
+    "stage": "delegation",
+    "space": 41,
+    "remaining": 28
+  },
+  {
+    "scenario": "reading",
+    "type": "explicit-preference",
+    "stage": "follow-up",
+    "space": 77,
+    "remaining": 52
+  },
+  {
+    "scenario": "travel",
+    "type": "explicit-preference",
+    "stage": "coherent",
+    "space": 8,
+    "remaining": 4
+  },
+  {
+    "scenario": "travel",
+    "type": "explicit-preference",
+    "stage": "expiry",
+    "space": 15,
+    "remaining": 8
+  },
+  {
+    "scenario": "travel",
+    "type": "explicit-preference",
+    "stage": "preference scope",
+    "space": 23,
+    "remaining": 16
+  },
+  {
+    "scenario": "travel",
+    "type": "explicit-preference",
+    "stage": "delegation",
+    "space": 41,
+    "remaining": 28
+  },
+  {
+    "scenario": "travel",
+    "type": "explicit-preference",
+    "stage": "follow-up",
+    "space": 77,
+    "remaining": 52
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "desk",
+    "uniqueInformativeSignatures": 3,
+    "meanRemaining": 2
+  },
+  {
+    "id": "meal",
+    "uniqueInformativeSignatures": 3,
+    "meanRemaining": 2
+  },
+  {
+    "id": "hotel",
+    "uniqueInformativeSignatures": 3,
+    "meanRemaining": 2
+  },
+  {
+    "id": "font",
+    "uniqueInformativeSignatures": 3,
+    "meanRemaining": 2
+  },
+  {
+    "id": "gift",
+    "uniqueInformativeSignatures": 3,
+    "meanRemaining": 2
+  },
+  {
+    "id": "music",
+    "uniqueInformativeSignatures": 3,
+    "meanRemaining": 2
+  },
+  {
+    "id": "office",
+    "uniqueInformativeSignatures": 3,
+    "meanRemaining": 2
+  },
+  {
+    "id": "dessert",
+    "uniqueInformativeSignatures": 3,
+    "meanRemaining": 2
+  },
+  {
+    "id": "lighting",
+    "uniqueInformativeSignatures": 4,
+    "meanRemaining": 3.8333333333333335
+  },
+  {
+    "id": "coffee",
+    "uniqueInformativeSignatures": 4,
+    "meanRemaining": 3.8333333333333335
+  },
+  {
+    "id": "reading",
+    "uniqueInformativeSignatures": 4,
+    "meanRemaining": 3.8333333333333335
+  },
+  {
+    "id": "travel",
+    "uniqueInformativeSignatures": 4,
+    "meanRemaining": 3.8333333333333335
+  }
+]

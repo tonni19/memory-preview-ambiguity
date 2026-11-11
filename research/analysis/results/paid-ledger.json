@@ -1,0 +1,67 @@
+[
+  {
+    "name": "embeddings",
+    "reserve": 0.00006462,
+    "actual": 0.00001052
+  },
+  {
+    "name": "judge-0",
+    "reserve": 0.00341055,
+    "actual": 0.0003795
+  },
+  {
+    "name": "judge-12",
+    "reserve": 0.0033825,
+    "actual": 0.0017115
+  },
+  {
+    "name": "judge-retry-12",
+    "reserve": 0.006584325,
+    "actual": 0.00236325
+  },
+  {
+    "name": "judge-24",
+    "reserve": 0.0034171500000000003,
+    "actual": 0.0003735
+  },
+  {
+    "name": "judge-36",
+    "reserve": 0.003363525,
+    "actual": 0.00171075
+  },
+  {
+    "name": "judge-retry-36",
+    "reserve": 0.00656535,
+    "actual": 0.00241875
+  },
+  {
+    "name": "leak-desk-0-ungated",
+    "reserve": 0.0027183750000000003,
+    "actual": 0.0014025
+  },
+  {
+    "name": "leak-desk-0-gated",
+    "reserve": 0.00262845,
+    "actual": 0.00098175
+  },
+  {
+    "name": "leak-hotel-1-gated",
+    "reserve": 0.00262845,
+    "actual": 0.001023
+  },
+  {
+    "name": "leak-hotel-1-ungated",
+    "reserve": 0.002703525,
+    "actual": 0.00129375
+  },
+  {
+    "name": "leak-desk-2-ungated",
+    "reserve": 0.0027126,
+    "actual": 0.00110475
+  },
+  {
+    "name": "leak-desk-2-gated",
+    "reserve": 0.0027126,
+    "actual": 0.00107475
+  }
+]

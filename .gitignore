@@ -1,0 +1,17 @@
+# Participant data and local settings stay off the repository.
+responses/
+survey/local-data/
+configuration/participant-information.txt
+runtime/
+node_modules/
+*.sqlite
+*.sqlite-*
+# LaTeX build files
+*.aux
+*.log
+*.bbl
+*.blg
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "desk-task-alias",
+    "originalTask": "temporary workspace",
+    "alias": "short-term work area",
+    "expected": "allow"
+  },
+  {
+    "id": "meal-task-alias",
+    "originalTask": "today\u2019s lunch",
+    "alias": "this afternoon\u2019s meal",
+    "expected": "allow"
+  },
+  {
+    "id": "hotel-task-alias",
+    "originalTask": "early departure",
+    "alias": "early-morning flight",
+    "expected": "allow"
+  },
+  {
+    "id": "font-task-alias",
+    "originalTask": "conference poster",
+    "alias": "the same research poster",
+    "expected": "allow"
+  },
+  {
+    "id": "gift-task-alias",
+    "originalTask": "sister\u2019s birthday",
+    "alias": "birthday gift for my sister",
+    "expected": "allow"
+  },
+  {
+    "id": "music-task-alias",
+    "originalTask": "father\u2019s dinner",
+    "alias": "my dad\u2019s supper",
+    "expected": "allow"
+  },
+  {
+    "id": "office-task-alias",
+    "originalTask": "colleague\u2019s office",
+    "alias": "my coworker\u2019s workspace",
+    "expected": "allow"
+  },
+  {
+    "id": "dessert-task-alias",
+    "originalTask": "friend\u2019s celebration",
+    "alias": "that friend\u2019s party",
+    "expected": "allow"
+  },
+  {
+    "id": "lighting-task-alias",
+    "originalTask": "home lighting",
+    "alias": "lighting in my house",
+    "expected": "allow"
+  },
+  {
+    "id": "coffee-task-alias",
+    "originalTask": "coffee orders",
+    "alias": "ordering my coffee",
+    "expected": "allow"
+  },
+  {
+    "id": "reading-task-alias",
+    "originalTask": "leisure reading",
+    "alias": "books for fun",
+    "expected": "allow"
+  },
+  {
+    "id": "travel-task-alias",
+    "originalTask": "train trips",
+    "alias": "rail journeys",
+    "expected": "allow"
+  }
+]

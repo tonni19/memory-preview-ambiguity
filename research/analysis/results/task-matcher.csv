@@ -1,0 +1,49 @@
+id,split,scenario,source,request,same,cosine,exact,judge
+desk-1,development,desk,Help me furnish my temporary workspace.,What shelf goes with the desk in my temporary workspace?,True,0.6883325387473468,False,True
+desk-2,development,desk,Help me furnish my temporary workspace.,I still need storage for that short-term work area.,True,0.591549194729574,False,True
+desk-3,development,desk,Help me furnish my temporary workspace.,What furniture should I buy for my new home?,False,0.5945310713356332,False,False
+desk-4,development,desk,Help me furnish my temporary workspace.,Help me furnish a temporary workspace for my client.,False,0.8849459388097111,False,False
+meal-1,development,meal,Find me a quick lunch before today's meeting.,What side goes with that lunch before my meeting?,True,0.6825285889724412,False,False
+meal-2,development,meal,Find me a quick lunch before today's meeting.,Find me a quick lunch before today's meeting.,True,1,True,True
+meal-3,development,meal,Find me a quick lunch before today's meeting.,Plan quick lunches for next month.,False,0.6184966326009177,False,False
+meal-4,development,meal,Find me a quick lunch before today's meeting.,What's a quick dinner after today's meeting?,False,0.799960202821897,False,False
+hotel-1,development,hotel,Book a hotel near the airport for my early departure.,Does the hotel serve breakfast before my early departure?,True,0.5978348666616214,False,True
+hotel-2,development,hotel,Book a hotel near the airport for my early departure.,Can I stay by the terminal the night before that flight?,True,0.5970177476651672,False,True
+hotel-3,development,hotel,Book a hotel near the airport for my early departure.,Book an airport hotel for my return trip.,False,0.816547389624318,False,False
+hotel-4,development,hotel,Book a hotel near the airport for my early departure.,My friend has an early departure too. Where can she stay?,False,0.6144379806355481,False,False
+font-1,development,font,Choose type for my conference poster.,Would a larger caption suit that same conference poster?,True,0.7040139914101453,False,False
+font-2,development,font,Choose type for my conference poster.,What lettering can the audience read on this printed display?,True,0.49698625161545285,False,False
+font-3,development,font,Choose type for my conference poster.,Choose type for the conference proceedings.,False,0.7351745008939042,False,False
+font-4,development,font,Choose type for my conference poster.,Choose a conference poster typeface for a different poster.,False,0.854656483975734,False,False
+gift-1,development,gift,Pick a birthday gift for my sister.,Pick a birthday gift for my sister.,True,1,True,True
+gift-2,development,gift,Pick a birthday gift for my sister.,What wrapping suits her present for this birthday?,True,0.5234147016908073,False,False
+gift-3,development,gift,Pick a birthday gift for my sister.,Pick a birthday gift for my brother.,False,0.808547580643081,False,False
+gift-4,development,gift,Pick a birthday gift for my sister.,What should I give my sister for graduation?,False,0.6402127276357715,False,False
+music-1,development,music,Make a playlist for my father's dinner.,Find one last track for Dad's dinner tonight.,True,0.6906666534105487,False,True
+music-2,development,music,Make a playlist for my father's dinner.,Can we shorten the music for that same meal?,True,0.4721864348595081,False,True
+music-3,development,music,Make a playlist for my father's dinner.,Make a playlist for my father's morning run.,False,0.8337413177745145,False,False
+music-4,development,music,Make a playlist for my father's dinner.,What music should I play at my own dinner?,False,0.6328578910221168,False,False
+office-1,held-out,office,Find my colleague a chair for her office.,What armrests suit the chair we chose for her office?,True,0.5908897654056294,False,False
+office-2,held-out,office,Find my colleague a chair for her office.,Find my colleague a chair for her office.,True,1,True,True
+office-3,held-out,office,Find my colleague a chair for her office.,Find my colleague a chair for her patio.,False,0.9239882224330239,False,False
+office-4,held-out,office,Find my colleague a chair for her office.,Find a chair for my office too.,False,0.7980304645067314,False,False
+dessert-1,held-out,dessert,Pick a cake for my friend's celebration.,How many portions of this cake should we reserve?,True,0.4595441721803854,False,True
+dessert-2,held-out,dessert,Pick a cake for my friend's celebration.,Which filling works for the cake at that party?,True,0.5613180811609269,False,True
+dessert-3,held-out,dessert,Pick a cake for my friend's celebration.,Pick a cake for the next celebration.,False,0.8121813107324616,False,False
+dessert-4,held-out,dessert,Pick a cake for my friend's celebration.,What dessert should I get for myself afterwards?,False,0.5396721315842435,False,False
+lighting-1,held-out,lighting,Choose lighting for my reading corner.,Would a dimmer work on the lamp in this reading nook?,True,0.5553858076269462,False,True
+lighting-2,held-out,lighting,Choose lighting for my reading corner.,Choose lighting for my reading corner.,True,1,True,True
+lighting-3,held-out,lighting,Choose lighting for my reading corner.,Choose lighting for my kitchen.,False,0.7474382724281025,False,False
+lighting-4,held-out,lighting,Choose lighting for my reading corner.,Choose lighting for my partner's reading corner.,False,0.9089529985425401,False,False
+coffee-1,held-out,coffee,Help me order coffee for today's train ride.,Could my cup for the train be decaf?,True,0.4899054253920398,False,True
+coffee-2,held-out,coffee,Help me order coffee for today's train ride.,Which size drink should I take on that journey?,True,0.5295865889540603,False,True
+coffee-3,held-out,coffee,Help me order coffee for today's train ride.,Help me order coffee for tomorrow's train ride.,False,0.9463573365928429,False,False
+coffee-4,held-out,coffee,Help me order coffee for today's train ride.,What should the person next to me order today?,False,0.5919166849200269,False,False
+reading-1,held-out,reading,Choose a printed novel for my holiday.,Can I get that vacation novel in paperback?,True,0.595201001050476,False,True
+reading-2,held-out,reading,Choose a printed novel for my holiday.,Choose a printed novel for my holiday.,True,1,True,True
+reading-3,held-out,reading,Choose a printed novel for my holiday.,Choose a printed novel for my course.,False,0.8693135580901071,False,False
+reading-4,held-out,reading,Choose a printed novel for my holiday.,Choose a printed novel for my sister's holiday.,False,0.922705368999718,False,False
+travel-1,held-out,travel,Choose my seat on the outbound train.,Is a window seat available on that outward journey?,True,0.6185713951308895,False,True
+travel-2,held-out,travel,Choose my seat on the outbound train.,Can I move my reservation one row forward on the same train?,True,0.5058012066149525,False,True
+travel-3,held-out,travel,Choose my seat on the outbound train.,Choose my seat on the return train.,False,0.9042512585477736,False,False
+travel-4,held-out,travel,Choose my seat on the outbound train.,Choose my companion's seat on the outbound train.,False,0.8602614602212826,False,False

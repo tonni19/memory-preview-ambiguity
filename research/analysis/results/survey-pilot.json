@@ -1,0 +1,34 @@
+{
+  "people": 20,
+  "scope": {
+    "none": 6,
+    "same-person": 5,
+    "same-task": 9
+  },
+  "lamp": {
+    "correct": 15,
+    "incorrect": 5
+  },
+  "bookcase": {
+    "correct": 14,
+    "unsure": 3,
+    "incorrect": 3
+  },
+  "missedAtLeastOne": 10,
+  "wrongDirection": {
+    "expected_allow_rule_blocks": 4,
+    "expected_block_rule_allows": 4
+  },
+  "fitAmongMissed": {
+    "partly": 7,
+    "unsure": 2,
+    "skip": 1
+  },
+  "fitAmongAllCorrect": {
+    "yes": 9,
+    "unsure": 1
+  },
+  "medianSeconds": 41.0045,
+  "minSeconds": 13.556,
+  "maxSeconds": 383.579
+}

@@ -1,0 +1,61 @@
+scenario,type,stage,space,remaining
+desk,single-choice,coherent,4,2
+desk,single-choice,expiry,7,4
+desk,single-choice,preference scope,7,4
+desk,single-choice,delegation,13,8
+desk,single-choice,follow-up,25,16
+meal,single-choice,coherent,4,2
+meal,single-choice,expiry,7,4
+meal,single-choice,preference scope,7,4
+meal,single-choice,delegation,13,8
+meal,single-choice,follow-up,25,16
+hotel,single-choice,coherent,4,2
+hotel,single-choice,expiry,7,4
+hotel,single-choice,preference scope,7,4
+hotel,single-choice,delegation,13,8
+hotel,single-choice,follow-up,25,16
+font,single-choice,coherent,4,2
+font,single-choice,expiry,7,4
+font,single-choice,preference scope,7,4
+font,single-choice,delegation,13,8
+font,single-choice,follow-up,25,16
+gift,single-choice,coherent,4,2
+gift,single-choice,expiry,7,4
+gift,single-choice,preference scope,7,4
+gift,single-choice,delegation,13,8
+gift,single-choice,follow-up,25,16
+music,single-choice,coherent,4,2
+music,single-choice,expiry,7,4
+music,single-choice,preference scope,7,4
+music,single-choice,delegation,13,8
+music,single-choice,follow-up,25,16
+office,single-choice,coherent,4,2
+office,single-choice,expiry,7,4
+office,single-choice,preference scope,7,4
+office,single-choice,delegation,13,8
+office,single-choice,follow-up,25,16
+dessert,single-choice,coherent,4,2
+dessert,single-choice,expiry,7,4
+dessert,single-choice,preference scope,7,4
+dessert,single-choice,delegation,13,8
+dessert,single-choice,follow-up,25,16
+lighting,explicit-preference,coherent,8,4
+lighting,explicit-preference,expiry,15,8
+lighting,explicit-preference,preference scope,23,16
+lighting,explicit-preference,delegation,41,28
+lighting,explicit-preference,follow-up,77,52
+coffee,explicit-preference,coherent,8,4
+coffee,explicit-preference,expiry,15,8
+coffee,explicit-preference,preference scope,23,16
+coffee,explicit-preference,delegation,41,28
+coffee,explicit-preference,follow-up,77,52
+reading,explicit-preference,coherent,8,4
+reading,explicit-preference,expiry,15,8
+reading,explicit-preference,preference scope,23,16
+reading,explicit-preference,delegation,41,28
+reading,explicit-preference,follow-up,77,52
+travel,explicit-preference,coherent,8,4
+travel,explicit-preference,expiry,15,8
+travel,explicit-preference,preference scope,23,16
+travel,explicit-preference,delegation,41,28
+travel,explicit-preference,follow-up,77,52

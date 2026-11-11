@@ -1,0 +1,82 @@
+[
+  [
+    "mayer",
+    "Mikaël Mayer and Gustavo Soares and Maxim Grechkin and Vu Le and Mark Marron and Oleksandr Polozov and Rishabh Singh and Benjamin Zorn and Sumit Gulwani",
+    "User Interaction Models for Disambiguation in Programming by Example",
+    2015,
+    "UIST",
+    "10.1145/2807442.2807459"
+  ],
+  [
+    "peleg",
+    "Hila Peleg and Sharon Shoham and Eran Yahav",
+    "Programming Not Only by Example",
+    2018,
+    "ICSE",
+    "10.1145/3180155.3180189"
+  ],
+  [
+    "regae",
+    "Tianyi Zhang and London Lowmanstone and Xinyu Wang and Elena L. Glassman",
+    "Interactive Program Synthesis by Augmented Examples",
+    2020,
+    "UIST",
+    "10.1145/3379337.3415900"
+  ],
+  [
+    "grids",
+    "Robert W. Reeder and Lujo Bauer and Lorrie Faith Cranor and Michael K. Reiter and Kelli Bacon and Keisha How and Heather Strong",
+    "Expandable Grids for Visualizing and Authoring Computer Security Policies",
+    2008,
+    "CHI",
+    "10.1145/1357054.1357285"
+  ],
+  [
+    "ci",
+    "Niloofar Mireshghallah and Neal Mangaokar and Narine Kokhlikyan and Arman Zharmagambetov and Manzil Zaheer and Saeed Mahloujifar and Kamalika Chaudhuri",
+    "CIMemories: A Compositional Benchmark for Contextual Integrity in LLMs",
+    2026,
+    "ICLR",
+    "https://proceedings.iclr.cc/paper_files/paper/2026/hash/9a2bcfaf383638e166162a25b6dff125-Abstract-Conference.html"
+  ],
+  [
+    "persist",
+    "Sidharth Pulipaka and Oliver Chen and Manas Sharma and Taaha S Bajwa and Vyas Raina and Ivaxi Sheth",
+    "PersistBench: When Should Long-Term Memories Be Forgotten by LLMs?",
+    2026,
+    "arXiv",
+    "2602.01146"
+  ],
+  [
+    "yan",
+    "Ting Yan",
+    "Do User-Authored Permission Policies Improve Protection Against AI Agent Overreach?",
+    2026,
+    "arXiv",
+    "2608.27443"
+  ],
+  [
+    "chen",
+    "Jingruo Chen and Shuning Zhang and Eryue Xu and Jianing Li and Xin Yi",
+    "Characterizing Memory Misalignment in Human-LLM Interaction From User Perspectives",
+    2026,
+    "arXiv",
+    "2609.33623"
+  ],
+  [
+    "liu",
+    "Chang Liu and Deliang Ding",
+    "What to Admit and How to Present: Governing Persistent Memory in LLM Agents",
+    2026,
+    "arXiv",
+    "2610.11188"
+  ],
+  [
+    "n",
+    "Adwait Nadkarni and William Enck and Somesh Jha and Jessica Staddon",
+    "Policy by Example: An Approach for Security Policy Specification",
+    2017,
+    "arXiv",
+    "1707.03967"
+  ]
+]

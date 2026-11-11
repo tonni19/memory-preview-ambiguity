@@ -1,0 +1,304 @@
+{
+  "desk": {
+    "type": "single-choice",
+    "intended": {
+      "rule": {
+        "recall": true,
+        "recommendation": "same-task",
+        "preference": false
+      },
+      "pairs": 39,
+      "blockedEliminatesNothing": 36,
+      "meanRulesLeft": 3.230769230769231,
+      "minRulesLeft": 2,
+      "identifying": 0
+    },
+    "allRules": {
+      "rulesWithAPreview": 5,
+      "pairs": 158,
+      "blockedEliminatesNothing": 144,
+      "identifying": 4
+    },
+    "perRule": [
+      {
+        "rule": {
+          "recall": false,
+          "recommendation": "none",
+          "preference": false
+        },
+        "pairs": 0,
+        "blockedEliminatesNothing": 0,
+        "meanRulesLeft": null,
+        "minRulesLeft": null,
+        "identifying": 0
+      },
+      {
+        "rule": {
+          "recall": false,
+          "recommendation": "same-task",
+          "preference": false
+        },
+        "pairs": 15,
+        "blockedEliminatesNothing": 12,
+        "meanRulesLeft": 3.6,
+        "minRulesLeft": 2,
+        "identifying": 0
+      },
+      {
+        "rule": {
+          "recall": false,
+          "recommendation": "same-person",
+          "preference": false
+        },
+        "pairs": 28,
+        "blockedEliminatesNothing": 24,
+        "meanRulesLeft": 2.7857142857142856,
+        "minRulesLeft": 1,
+        "identifying": 2
+      },
+      {
+        "rule": {
+          "recall": true,
+          "recommendation": "none",
+          "preference": false
+        },
+        "pairs": 28,
+        "blockedEliminatesNothing": 24,
+        "meanRulesLeft": 2.7857142857142856,
+        "minRulesLeft": 1,
+        "identifying": 2
+      },
+      {
+        "rule": {
+          "recall": true,
+          "recommendation": "same-task",
+          "preference": false
+        },
+        "pairs": 39,
+        "blockedEliminatesNothing": 36,
+        "meanRulesLeft": 3.230769230769231,
+        "minRulesLeft": 2,
+        "identifying": 0
+      },
+      {
+        "rule": {
+          "recall": true,
+          "recommendation": "same-person",
+          "preference": false
+        },
+        "pairs": 48,
+        "blockedEliminatesNothing": 48,
+        "meanRulesLeft": 3,
+        "minRulesLeft": 2,
+        "identifying": 0
+      }
+    ],
+    "original": {
+      "rules": 6,
+      "requests": 16,
+      "distinctInformative": 3,
+      "lowerBound": 3,
+      "fixedSet": 3,
+      "adaptiveMean": 2.6666666666666665,
+      "adaptiveMin": 2,
+      "adaptiveMax": 3
+    },
+    "extended": {
+      "rules": 25,
+      "requests": 48,
+      "distinctInformative": 10,
+      "lowerBound": 5,
+      "fixedSet": 6,
+      "adaptiveMean": 4.72,
+      "adaptiveMin": 4,
+      "adaptiveMax": 5
+    }
+  },
+  "lighting": {
+    "type": "explicit-preference",
+    "intended": {
+      "rule": {
+        "recall": true,
+        "recommendation": "same-task",
+        "preference": true
+      },
+      "pairs": 48,
+      "blockedEliminatesNothing": 44,
+      "meanRulesLeft": 6.291666666666667,
+      "minRulesLeft": 4,
+      "identifying": 0
+    },
+    "allRules": {
+      "rulesWithAPreview": 11,
+      "pairs": 382,
+      "blockedEliminatesNothing": 330,
+      "identifying": 0
+    },
+    "perRule": [
+      {
+        "rule": {
+          "recall": false,
+          "recommendation": "none",
+          "preference": false
+        },
+        "pairs": 0,
+        "blockedEliminatesNothing": 0,
+        "meanRulesLeft": null,
+        "minRulesLeft": null,
+        "identifying": 0
+      },
+      {
+        "rule": {
+          "recall": false,
+          "recommendation": "none",
+          "preference": true
+        },
+        "pairs": 15,
+        "blockedEliminatesNothing": 11,
+        "meanRulesLeft": 5.2,
+        "minRulesLeft": 2,
+        "identifying": 0
+      },
+      {
+        "rule": {
+          "recall": false,
+          "recommendation": "same-task",
+          "preference": false
+        },
+        "pairs": 15,
+        "blockedEliminatesNothing": 11,
+        "meanRulesLeft": 6.933333333333334,
+        "minRulesLeft": 4,
+        "identifying": 0
+      },
+      {
+        "rule": {
+          "recall": false,
+          "recommendation": "same-task",
+          "preference": true
+        },
+        "pairs": 28,
+        "blockedEliminatesNothing": 22,
+        "meanRulesLeft": 6.285714285714286,
+        "minRulesLeft": 3,
+        "identifying": 0
+      },
+      {
+        "rule": {
+          "recall": false,
+          "recommendation": "same-person",
+          "preference": false
+        },
+        "pairs": 28,
+        "blockedEliminatesNothing": 22,
+        "meanRulesLeft": 5.357142857142857,
+        "minRulesLeft": 2,
+        "identifying": 0
+      },
+      {
+        "rule": {
+          "recall": false,
+          "recommendation": "same-person",
+          "preference": true
+        },
+        "pairs": 39,
+        "blockedEliminatesNothing": 33,
+        "meanRulesLeft": 5.538461538461538,
+        "minRulesLeft": 2,
+        "identifying": 0
+      },
+      {
+        "rule": {
+          "recall": true,
+          "recommendation": "none",
+          "preference": false
+        },
+        "pairs": 28,
+        "blockedEliminatesNothing": 22,
+        "meanRulesLeft": 5.357142857142857,
+        "minRulesLeft": 2,
+        "identifying": 0
+      },
+      {
+        "rule": {
+          "recall": true,
+          "recommendation": "none",
+          "preference": true
+        },
+        "pairs": 39,
+        "blockedEliminatesNothing": 33,
+        "meanRulesLeft": 5.538461538461538,
+        "minRulesLeft": 2,
+        "identifying": 0
+      },
+      {
+        "rule": {
+          "recall": true,
+          "recommendation": "same-task",
+          "preference": false
+        },
+        "pairs": 39,
+        "blockedEliminatesNothing": 33,
+        "meanRulesLeft": 6.205128205128205,
+        "minRulesLeft": 3,
+        "identifying": 0
+      },
+      {
+        "rule": {
+          "recall": true,
+          "recommendation": "same-task",
+          "preference": true
+        },
+        "pairs": 48,
+        "blockedEliminatesNothing": 44,
+        "meanRulesLeft": 6.291666666666667,
+        "minRulesLeft": 4,
+        "identifying": 0
+      },
+      {
+        "rule": {
+          "recall": true,
+          "recommendation": "same-person",
+          "preference": false
+        },
+        "pairs": 48,
+        "blockedEliminatesNothing": 44,
+        "meanRulesLeft": 5.75,
+        "minRulesLeft": 2,
+        "identifying": 0
+      },
+      {
+        "rule": {
+          "recall": true,
+          "recommendation": "same-person",
+          "preference": true
+        },
+        "pairs": 55,
+        "blockedEliminatesNothing": 55,
+        "meanRulesLeft": 6,
+        "minRulesLeft": 4,
+        "identifying": 0
+      }
+    ],
+    "original": {
+      "rules": 12,
+      "requests": 16,
+      "distinctInformative": 4,
+      "lowerBound": 4,
+      "fixedSet": 4,
+      "adaptiveMean": 3.6666666666666665,
+      "adaptiveMin": 3,
+      "adaptiveMax": 4
+    },
+    "extended": {
+      "rules": 77,
+      "requests": 48,
+      "distinctInformative": 14,
+      "lowerBound": 7,
+      "fixedSet": 9,
+      "adaptiveMean": 6.415584415584416,
+      "adaptiveMin": 5,
+      "adaptiveMax": 7
+    }
+  }
+}

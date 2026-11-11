@@ -1,0 +1,242 @@
+[
+  {
+    "review_id": "R01",
+    "decision": "different",
+    "reason": "The kitchen is a different room from the reading corner."
+  },
+  {
+    "review_id": "R02",
+    "decision": "same",
+    "reason": "In context, this printed display refers back to the conference poster. Lettering legibility continues the typography task."
+  },
+  {
+    "review_id": "R03",
+    "decision": "different",
+    "reason": "The gift is for the brother instead of the sister."
+  },
+  {
+    "review_id": "R04",
+    "decision": "different",
+    "reason": "The course replaces the holiday as the reason for choosing a book."
+  },
+  {
+    "review_id": "R05",
+    "decision": "different",
+    "reason": "The proceedings and the poster are distinct publications."
+  },
+  {
+    "review_id": "R06",
+    "decision": "different",
+    "reason": "The return journey has a separate seat assignment."
+  },
+  {
+    "review_id": "R07",
+    "decision": "different",
+    "reason": "A dessert for the speaker afterwards changes both recipient and occasion."
+  },
+  {
+    "review_id": "R08",
+    "decision": "same",
+    "reason": "The armrests are a detail of the colleague's chosen office chair."
+  },
+  {
+    "review_id": "R09",
+    "decision": "different",
+    "reason": "The new dinner is the speaker's own occasion."
+  },
+  {
+    "review_id": "R10",
+    "decision": "same",
+    "reason": "The window seat is requested on that outward journey."
+  },
+  {
+    "review_id": "R11",
+    "decision": "same",
+    "reason": "Breakfast timing is a constraint on the stay for the same early departure."
+  },
+  {
+    "review_id": "R12",
+    "decision": "same",
+    "reason": "Storage is part of furnishing that same short-term work area."
+  },
+  {
+    "review_id": "R13",
+    "decision": "different",
+    "reason": "The request explicitly identifies a different poster."
+  },
+  {
+    "review_id": "R14",
+    "decision": "different",
+    "reason": "The partner's reading corner changes whose space is being furnished."
+  },
+  {
+    "review_id": "R15",
+    "decision": "different",
+    "reason": "Tomorrow's journey is a separate occasion."
+  },
+  {
+    "review_id": "R16",
+    "decision": "same",
+    "reason": "The same wording identifies the same lunch and meeting."
+  },
+  {
+    "review_id": "R17",
+    "decision": "different",
+    "reason": "The speaker's office replaces the colleague's office."
+  },
+  {
+    "review_id": "R18",
+    "decision": "different",
+    "reason": "The holiday reader changes to the sister."
+  },
+  {
+    "review_id": "R19",
+    "decision": "same",
+    "reason": "The filling is for the previously mentioned cake and party."
+  },
+  {
+    "review_id": "R20",
+    "decision": "same",
+    "reason": "Wrapping is a follow-up for her present on this birthday."
+  },
+  {
+    "review_id": "R21",
+    "decision": "same",
+    "reason": "The dimmer is for the lamp in the same reading nook."
+  },
+  {
+    "review_id": "R22",
+    "decision": "same",
+    "reason": "Paperback is a format choice for that vacation novel."
+  },
+  {
+    "review_id": "R23",
+    "decision": "same",
+    "reason": "The same wording specifies the speaker's reading corner."
+  },
+  {
+    "review_id": "R24",
+    "decision": "same",
+    "reason": "Portion count concerns the cake already under discussion."
+  },
+  {
+    "review_id": "R25",
+    "decision": "different",
+    "reason": "The client becomes the beneficiary of the workspace."
+  },
+  {
+    "review_id": "R26",
+    "decision": "same",
+    "reason": "Moving the existing reservation on the same train continues seat selection."
+  },
+  {
+    "review_id": "R27",
+    "decision": "different",
+    "reason": "The companion needs a separate seat."
+  },
+  {
+    "review_id": "R28",
+    "decision": "different",
+    "reason": "Dinner after the meeting replaces lunch before it."
+  },
+  {
+    "review_id": "R29",
+    "decision": "different",
+    "reason": "Moving from an office chair to a patio chair changes the furnishing task."
+  },
+  {
+    "review_id": "R30",
+    "decision": "same",
+    "reason": "The side dish belongs to that lunch before the meeting."
+  },
+  {
+    "review_id": "R31",
+    "decision": "same",
+    "reason": "That flight links the terminal stay to the same upcoming departure."
+  },
+  {
+    "review_id": "R32",
+    "decision": "different",
+    "reason": "The next celebration is a different occasion."
+  },
+  {
+    "review_id": "R33",
+    "decision": "same",
+    "reason": "The holiday reading request is repeated verbatim."
+  },
+  {
+    "review_id": "R34",
+    "decision": "different",
+    "reason": "Furnishing a new home changes the project from the temporary workspace."
+  },
+  {
+    "review_id": "R35",
+    "decision": "different",
+    "reason": "A hotel on the return trip serves a separate stay."
+  },
+  {
+    "review_id": "R36",
+    "decision": "same",
+    "reason": "A matching shelf advances the same workspace furnishing project."
+  },
+  {
+    "review_id": "R37",
+    "decision": "different",
+    "reason": "A morning run is a different use for the playlist."
+  },
+  {
+    "review_id": "R38",
+    "decision": "different",
+    "reason": "Planning a month of lunches expands beyond the single meal."
+  },
+  {
+    "review_id": "R39",
+    "decision": "different",
+    "reason": "Graduation replaces the birthday occasion."
+  },
+  {
+    "review_id": "R40",
+    "decision": "different",
+    "reason": "The friend is the new traveler and beneficiary."
+  },
+  {
+    "review_id": "R41",
+    "decision": "same",
+    "reason": "The chair, office and beneficiary are repeated verbatim."
+  },
+  {
+    "review_id": "R42",
+    "decision": "same",
+    "reason": "One last track completes the father's dinner playlist."
+  },
+  {
+    "review_id": "R43",
+    "decision": "different",
+    "reason": "The other passenger is ordering for themselves."
+  },
+  {
+    "review_id": "R44",
+    "decision": "same",
+    "reason": "Shortening the music for that meal revises the existing playlist."
+  },
+  {
+    "review_id": "R45",
+    "decision": "same",
+    "reason": "Decaf modifies the coffee for the previously mentioned train ride."
+  },
+  {
+    "review_id": "R46",
+    "decision": "same",
+    "reason": "The sister's birthday gift request is repeated verbatim."
+  },
+  {
+    "review_id": "R47",
+    "decision": "same",
+    "reason": "In context, the drink size is a detail of the order for that same journey."
+  },
+  {
+    "review_id": "R48",
+    "decision": "same",
+    "reason": "The caption size is a typography detail on the same poster."
+  }
+]

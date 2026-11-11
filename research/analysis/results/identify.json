@@ -1,0 +1,4110 @@
+[
+  {
+    "id": "desk",
+    "type": "single-choice",
+    "rules": 6,
+    "authoredGrid": [
+      {
+        "recall": false,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": true,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": true,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": true,
+        "intended": true
+      },
+      {
+        "recall": true,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": true,
+        "intended": false
+      }
+    ],
+    "adaptiveGrid": [
+      {
+        "recall": false,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": true,
+        "intended": true
+      },
+      {
+        "recall": true,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": true,
+        "intended": false
+      }
+    ],
+    "transferGrid": [
+      {
+        "recall": false,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": true,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": true,
+        "intended": true
+      },
+      {
+        "recall": true,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      }
+    ],
+    "adaptiveFirstTies": [
+      "recall, original person, other task"
+    ],
+    "adaptiveSecondChoices": [
+      {
+        "test": "recommendation, original person, original task",
+        "leaves": [
+          "recall on; recommendation same-task; preference off",
+          "recall on; recommendation same-person; preference off"
+        ],
+        "grid": [
+          {
+            "recall": false,
+            "recommendation": "none",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": false,
+            "recommendation": "same-task",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": false,
+            "recommendation": "same-person",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": true,
+            "recommendation": "none",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": true,
+            "recommendation": "same-task",
+            "preference": false,
+            "compatible": true,
+            "intended": true
+          },
+          {
+            "recall": true,
+            "recommendation": "same-person",
+            "preference": false,
+            "compatible": true,
+            "intended": false
+          }
+        ]
+      },
+      {
+        "test": "recommendation, original person, other task",
+        "leaves": [
+          "recall on; recommendation none; preference off",
+          "recall on; recommendation same-task; preference off"
+        ],
+        "grid": [
+          {
+            "recall": false,
+            "recommendation": "none",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": false,
+            "recommendation": "same-task",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": false,
+            "recommendation": "same-person",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": true,
+            "recommendation": "none",
+            "preference": false,
+            "compatible": true,
+            "intended": false
+          },
+          {
+            "recall": true,
+            "recommendation": "same-task",
+            "preference": false,
+            "compatible": true,
+            "intended": true
+          },
+          {
+            "recall": true,
+            "recommendation": "same-person",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          }
+        ]
+      }
+    ],
+    "adaptivePaths": [
+      {
+        "tests": [
+          "recall, original person, other task",
+          "recommendation, original person, original task"
+        ],
+        "leaves": [
+          "recall on; recommendation same-task; preference off",
+          "recall on; recommendation same-person; preference off"
+        ],
+        "scopesLeft": [
+          "same-task",
+          "same-person"
+        ],
+        "disagreement": 0.0625
+      },
+      {
+        "tests": [
+          "recall, original person, other task",
+          "recommendation, original person, other task"
+        ],
+        "leaves": [
+          "recall on; recommendation none; preference off",
+          "recall on; recommendation same-task; preference off"
+        ],
+        "scopesLeft": [
+          "none",
+          "same-task"
+        ],
+        "disagreement": 0.0625
+      }
+    ],
+    "requests": 16,
+    "invariantRequests": 12,
+    "informativeRequests": 4,
+    "distinctPatterns": 3,
+    "lowerBound": 3,
+    "minimumIdentifying": 3,
+    "identifyingSet": [
+      "recall, original person, other task",
+      "recommendation, original person, original task",
+      "recommendation, original person, other task"
+    ],
+    "adaptiveWorstCaseAnswers": 3,
+    "adaptiveTests": [
+      "recall, original person, original task",
+      "recommendation, original person, original task"
+    ],
+    "adaptiveLeaves": [
+      "recall on; recommendation same-task; preference off",
+      "recall on; recommendation same-person; preference off"
+    ],
+    "transferLeaves": [
+      "recall off; recommendation same-task; preference off",
+      "recall on; recommendation same-task; preference off"
+    ]
+  },
+  {
+    "id": "meal",
+    "type": "single-choice",
+    "rules": 6,
+    "authoredGrid": [
+      {
+        "recall": false,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": true,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": true,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": true,
+        "intended": true
+      },
+      {
+        "recall": true,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": true,
+        "intended": false
+      }
+    ],
+    "adaptiveGrid": [
+      {
+        "recall": false,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": true,
+        "intended": true
+      },
+      {
+        "recall": true,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": true,
+        "intended": false
+      }
+    ],
+    "transferGrid": [
+      {
+        "recall": false,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": true,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": true,
+        "intended": true
+      },
+      {
+        "recall": true,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      }
+    ],
+    "adaptiveFirstTies": [
+      "recall, original person, other task"
+    ],
+    "adaptiveSecondChoices": [
+      {
+        "test": "recommendation, original person, original task",
+        "leaves": [
+          "recall on; recommendation same-task; preference off",
+          "recall on; recommendation same-person; preference off"
+        ],
+        "grid": [
+          {
+            "recall": false,
+            "recommendation": "none",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": false,
+            "recommendation": "same-task",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": false,
+            "recommendation": "same-person",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": true,
+            "recommendation": "none",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": true,
+            "recommendation": "same-task",
+            "preference": false,
+            "compatible": true,
+            "intended": true
+          },
+          {
+            "recall": true,
+            "recommendation": "same-person",
+            "preference": false,
+            "compatible": true,
+            "intended": false
+          }
+        ]
+      },
+      {
+        "test": "recommendation, original person, other task",
+        "leaves": [
+          "recall on; recommendation none; preference off",
+          "recall on; recommendation same-task; preference off"
+        ],
+        "grid": [
+          {
+            "recall": false,
+            "recommendation": "none",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": false,
+            "recommendation": "same-task",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": false,
+            "recommendation": "same-person",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": true,
+            "recommendation": "none",
+            "preference": false,
+            "compatible": true,
+            "intended": false
+          },
+          {
+            "recall": true,
+            "recommendation": "same-task",
+            "preference": false,
+            "compatible": true,
+            "intended": true
+          },
+          {
+            "recall": true,
+            "recommendation": "same-person",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          }
+        ]
+      }
+    ],
+    "adaptivePaths": [
+      {
+        "tests": [
+          "recall, original person, other task",
+          "recommendation, original person, original task"
+        ],
+        "leaves": [
+          "recall on; recommendation same-task; preference off",
+          "recall on; recommendation same-person; preference off"
+        ],
+        "scopesLeft": [
+          "same-task",
+          "same-person"
+        ],
+        "disagreement": 0.0625
+      },
+      {
+        "tests": [
+          "recall, original person, other task",
+          "recommendation, original person, other task"
+        ],
+        "leaves": [
+          "recall on; recommendation none; preference off",
+          "recall on; recommendation same-task; preference off"
+        ],
+        "scopesLeft": [
+          "none",
+          "same-task"
+        ],
+        "disagreement": 0.0625
+      }
+    ],
+    "requests": 16,
+    "invariantRequests": 12,
+    "informativeRequests": 4,
+    "distinctPatterns": 3,
+    "lowerBound": 3,
+    "minimumIdentifying": 3,
+    "identifyingSet": [
+      "recall, original person, other task",
+      "recommendation, original person, original task",
+      "recommendation, original person, other task"
+    ],
+    "adaptiveWorstCaseAnswers": 3,
+    "adaptiveTests": [
+      "recall, original person, original task",
+      "recommendation, original person, original task"
+    ],
+    "adaptiveLeaves": [
+      "recall on; recommendation same-task; preference off",
+      "recall on; recommendation same-person; preference off"
+    ],
+    "transferLeaves": [
+      "recall off; recommendation same-task; preference off",
+      "recall on; recommendation same-task; preference off"
+    ]
+  },
+  {
+    "id": "hotel",
+    "type": "single-choice",
+    "rules": 6,
+    "authoredGrid": [
+      {
+        "recall": false,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": true,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": true,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": true,
+        "intended": true
+      },
+      {
+        "recall": true,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": true,
+        "intended": false
+      }
+    ],
+    "adaptiveGrid": [
+      {
+        "recall": false,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": true,
+        "intended": true
+      },
+      {
+        "recall": true,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": true,
+        "intended": false
+      }
+    ],
+    "transferGrid": [
+      {
+        "recall": false,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": true,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": true,
+        "intended": true
+      },
+      {
+        "recall": true,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      }
+    ],
+    "adaptiveFirstTies": [
+      "recall, original person, other task"
+    ],
+    "adaptiveSecondChoices": [
+      {
+        "test": "recommendation, original person, original task",
+        "leaves": [
+          "recall on; recommendation same-task; preference off",
+          "recall on; recommendation same-person; preference off"
+        ],
+        "grid": [
+          {
+            "recall": false,
+            "recommendation": "none",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": false,
+            "recommendation": "same-task",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": false,
+            "recommendation": "same-person",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": true,
+            "recommendation": "none",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": true,
+            "recommendation": "same-task",
+            "preference": false,
+            "compatible": true,
+            "intended": true
+          },
+          {
+            "recall": true,
+            "recommendation": "same-person",
+            "preference": false,
+            "compatible": true,
+            "intended": false
+          }
+        ]
+      },
+      {
+        "test": "recommendation, original person, other task",
+        "leaves": [
+          "recall on; recommendation none; preference off",
+          "recall on; recommendation same-task; preference off"
+        ],
+        "grid": [
+          {
+            "recall": false,
+            "recommendation": "none",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": false,
+            "recommendation": "same-task",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": false,
+            "recommendation": "same-person",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": true,
+            "recommendation": "none",
+            "preference": false,
+            "compatible": true,
+            "intended": false
+          },
+          {
+            "recall": true,
+            "recommendation": "same-task",
+            "preference": false,
+            "compatible": true,
+            "intended": true
+          },
+          {
+            "recall": true,
+            "recommendation": "same-person",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          }
+        ]
+      }
+    ],
+    "adaptivePaths": [
+      {
+        "tests": [
+          "recall, original person, other task",
+          "recommendation, original person, original task"
+        ],
+        "leaves": [
+          "recall on; recommendation same-task; preference off",
+          "recall on; recommendation same-person; preference off"
+        ],
+        "scopesLeft": [
+          "same-task",
+          "same-person"
+        ],
+        "disagreement": 0.0625
+      },
+      {
+        "tests": [
+          "recall, original person, other task",
+          "recommendation, original person, other task"
+        ],
+        "leaves": [
+          "recall on; recommendation none; preference off",
+          "recall on; recommendation same-task; preference off"
+        ],
+        "scopesLeft": [
+          "none",
+          "same-task"
+        ],
+        "disagreement": 0.0625
+      }
+    ],
+    "requests": 16,
+    "invariantRequests": 12,
+    "informativeRequests": 4,
+    "distinctPatterns": 3,
+    "lowerBound": 3,
+    "minimumIdentifying": 3,
+    "identifyingSet": [
+      "recall, original person, other task",
+      "recommendation, original person, original task",
+      "recommendation, original person, other task"
+    ],
+    "adaptiveWorstCaseAnswers": 3,
+    "adaptiveTests": [
+      "recall, original person, original task",
+      "recommendation, original person, original task"
+    ],
+    "adaptiveLeaves": [
+      "recall on; recommendation same-task; preference off",
+      "recall on; recommendation same-person; preference off"
+    ],
+    "transferLeaves": [
+      "recall off; recommendation same-task; preference off",
+      "recall on; recommendation same-task; preference off"
+    ]
+  },
+  {
+    "id": "font",
+    "type": "single-choice",
+    "rules": 6,
+    "authoredGrid": [
+      {
+        "recall": false,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": true,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": true,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": true,
+        "intended": true
+      },
+      {
+        "recall": true,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": true,
+        "intended": false
+      }
+    ],
+    "adaptiveGrid": [
+      {
+        "recall": false,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": true,
+        "intended": true
+      },
+      {
+        "recall": true,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": true,
+        "intended": false
+      }
+    ],
+    "transferGrid": [
+      {
+        "recall": false,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": true,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": true,
+        "intended": true
+      },
+      {
+        "recall": true,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      }
+    ],
+    "adaptiveFirstTies": [
+      "recall, original person, other task"
+    ],
+    "adaptiveSecondChoices": [
+      {
+        "test": "recommendation, original person, original task",
+        "leaves": [
+          "recall on; recommendation same-task; preference off",
+          "recall on; recommendation same-person; preference off"
+        ],
+        "grid": [
+          {
+            "recall": false,
+            "recommendation": "none",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": false,
+            "recommendation": "same-task",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": false,
+            "recommendation": "same-person",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": true,
+            "recommendation": "none",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": true,
+            "recommendation": "same-task",
+            "preference": false,
+            "compatible": true,
+            "intended": true
+          },
+          {
+            "recall": true,
+            "recommendation": "same-person",
+            "preference": false,
+            "compatible": true,
+            "intended": false
+          }
+        ]
+      },
+      {
+        "test": "recommendation, original person, other task",
+        "leaves": [
+          "recall on; recommendation none; preference off",
+          "recall on; recommendation same-task; preference off"
+        ],
+        "grid": [
+          {
+            "recall": false,
+            "recommendation": "none",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": false,
+            "recommendation": "same-task",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": false,
+            "recommendation": "same-person",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": true,
+            "recommendation": "none",
+            "preference": false,
+            "compatible": true,
+            "intended": false
+          },
+          {
+            "recall": true,
+            "recommendation": "same-task",
+            "preference": false,
+            "compatible": true,
+            "intended": true
+          },
+          {
+            "recall": true,
+            "recommendation": "same-person",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          }
+        ]
+      }
+    ],
+    "adaptivePaths": [
+      {
+        "tests": [
+          "recall, original person, other task",
+          "recommendation, original person, original task"
+        ],
+        "leaves": [
+          "recall on; recommendation same-task; preference off",
+          "recall on; recommendation same-person; preference off"
+        ],
+        "scopesLeft": [
+          "same-task",
+          "same-person"
+        ],
+        "disagreement": 0.0625
+      },
+      {
+        "tests": [
+          "recall, original person, other task",
+          "recommendation, original person, other task"
+        ],
+        "leaves": [
+          "recall on; recommendation none; preference off",
+          "recall on; recommendation same-task; preference off"
+        ],
+        "scopesLeft": [
+          "none",
+          "same-task"
+        ],
+        "disagreement": 0.0625
+      }
+    ],
+    "requests": 16,
+    "invariantRequests": 12,
+    "informativeRequests": 4,
+    "distinctPatterns": 3,
+    "lowerBound": 3,
+    "minimumIdentifying": 3,
+    "identifyingSet": [
+      "recall, original person, other task",
+      "recommendation, original person, original task",
+      "recommendation, original person, other task"
+    ],
+    "adaptiveWorstCaseAnswers": 3,
+    "adaptiveTests": [
+      "recall, original person, original task",
+      "recommendation, original person, original task"
+    ],
+    "adaptiveLeaves": [
+      "recall on; recommendation same-task; preference off",
+      "recall on; recommendation same-person; preference off"
+    ],
+    "transferLeaves": [
+      "recall off; recommendation same-task; preference off",
+      "recall on; recommendation same-task; preference off"
+    ]
+  },
+  {
+    "id": "gift",
+    "type": "single-choice",
+    "rules": 6,
+    "authoredGrid": [
+      {
+        "recall": false,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": true,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": true,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": true,
+        "intended": true
+      },
+      {
+        "recall": true,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": true,
+        "intended": false
+      }
+    ],
+    "adaptiveGrid": [
+      {
+        "recall": false,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": true,
+        "intended": true
+      },
+      {
+        "recall": true,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": true,
+        "intended": false
+      }
+    ],
+    "transferGrid": [
+      {
+        "recall": false,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": true,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": true,
+        "intended": true
+      },
+      {
+        "recall": true,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      }
+    ],
+    "adaptiveFirstTies": [
+      "recall, original person, other task"
+    ],
+    "adaptiveSecondChoices": [
+      {
+        "test": "recommendation, original person, original task",
+        "leaves": [
+          "recall on; recommendation same-task; preference off",
+          "recall on; recommendation same-person; preference off"
+        ],
+        "grid": [
+          {
+            "recall": false,
+            "recommendation": "none",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": false,
+            "recommendation": "same-task",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": false,
+            "recommendation": "same-person",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": true,
+            "recommendation": "none",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": true,
+            "recommendation": "same-task",
+            "preference": false,
+            "compatible": true,
+            "intended": true
+          },
+          {
+            "recall": true,
+            "recommendation": "same-person",
+            "preference": false,
+            "compatible": true,
+            "intended": false
+          }
+        ]
+      },
+      {
+        "test": "recommendation, original person, other task",
+        "leaves": [
+          "recall on; recommendation none; preference off",
+          "recall on; recommendation same-task; preference off"
+        ],
+        "grid": [
+          {
+            "recall": false,
+            "recommendation": "none",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": false,
+            "recommendation": "same-task",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": false,
+            "recommendation": "same-person",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": true,
+            "recommendation": "none",
+            "preference": false,
+            "compatible": true,
+            "intended": false
+          },
+          {
+            "recall": true,
+            "recommendation": "same-task",
+            "preference": false,
+            "compatible": true,
+            "intended": true
+          },
+          {
+            "recall": true,
+            "recommendation": "same-person",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          }
+        ]
+      }
+    ],
+    "adaptivePaths": [
+      {
+        "tests": [
+          "recall, original person, other task",
+          "recommendation, original person, original task"
+        ],
+        "leaves": [
+          "recall on; recommendation same-task; preference off",
+          "recall on; recommendation same-person; preference off"
+        ],
+        "scopesLeft": [
+          "same-task",
+          "same-person"
+        ],
+        "disagreement": 0.0625
+      },
+      {
+        "tests": [
+          "recall, original person, other task",
+          "recommendation, original person, other task"
+        ],
+        "leaves": [
+          "recall on; recommendation none; preference off",
+          "recall on; recommendation same-task; preference off"
+        ],
+        "scopesLeft": [
+          "none",
+          "same-task"
+        ],
+        "disagreement": 0.0625
+      }
+    ],
+    "requests": 16,
+    "invariantRequests": 12,
+    "informativeRequests": 4,
+    "distinctPatterns": 3,
+    "lowerBound": 3,
+    "minimumIdentifying": 3,
+    "identifyingSet": [
+      "recall, original person, other task",
+      "recommendation, original person, original task",
+      "recommendation, original person, other task"
+    ],
+    "adaptiveWorstCaseAnswers": 3,
+    "adaptiveTests": [
+      "recall, original person, original task",
+      "recommendation, original person, original task"
+    ],
+    "adaptiveLeaves": [
+      "recall on; recommendation same-task; preference off",
+      "recall on; recommendation same-person; preference off"
+    ],
+    "transferLeaves": [
+      "recall off; recommendation same-task; preference off",
+      "recall on; recommendation same-task; preference off"
+    ]
+  },
+  {
+    "id": "music",
+    "type": "single-choice",
+    "rules": 6,
+    "authoredGrid": [
+      {
+        "recall": false,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": true,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": true,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": true,
+        "intended": true
+      },
+      {
+        "recall": true,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": true,
+        "intended": false
+      }
+    ],
+    "adaptiveGrid": [
+      {
+        "recall": false,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": true,
+        "intended": true
+      },
+      {
+        "recall": true,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": true,
+        "intended": false
+      }
+    ],
+    "transferGrid": [
+      {
+        "recall": false,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": true,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": true,
+        "intended": true
+      },
+      {
+        "recall": true,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      }
+    ],
+    "adaptiveFirstTies": [
+      "recall, original person, other task"
+    ],
+    "adaptiveSecondChoices": [
+      {
+        "test": "recommendation, original person, original task",
+        "leaves": [
+          "recall on; recommendation same-task; preference off",
+          "recall on; recommendation same-person; preference off"
+        ],
+        "grid": [
+          {
+            "recall": false,
+            "recommendation": "none",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": false,
+            "recommendation": "same-task",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": false,
+            "recommendation": "same-person",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": true,
+            "recommendation": "none",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": true,
+            "recommendation": "same-task",
+            "preference": false,
+            "compatible": true,
+            "intended": true
+          },
+          {
+            "recall": true,
+            "recommendation": "same-person",
+            "preference": false,
+            "compatible": true,
+            "intended": false
+          }
+        ]
+      },
+      {
+        "test": "recommendation, original person, other task",
+        "leaves": [
+          "recall on; recommendation none; preference off",
+          "recall on; recommendation same-task; preference off"
+        ],
+        "grid": [
+          {
+            "recall": false,
+            "recommendation": "none",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": false,
+            "recommendation": "same-task",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": false,
+            "recommendation": "same-person",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": true,
+            "recommendation": "none",
+            "preference": false,
+            "compatible": true,
+            "intended": false
+          },
+          {
+            "recall": true,
+            "recommendation": "same-task",
+            "preference": false,
+            "compatible": true,
+            "intended": true
+          },
+          {
+            "recall": true,
+            "recommendation": "same-person",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          }
+        ]
+      }
+    ],
+    "adaptivePaths": [
+      {
+        "tests": [
+          "recall, original person, other task",
+          "recommendation, original person, original task"
+        ],
+        "leaves": [
+          "recall on; recommendation same-task; preference off",
+          "recall on; recommendation same-person; preference off"
+        ],
+        "scopesLeft": [
+          "same-task",
+          "same-person"
+        ],
+        "disagreement": 0.0625
+      },
+      {
+        "tests": [
+          "recall, original person, other task",
+          "recommendation, original person, other task"
+        ],
+        "leaves": [
+          "recall on; recommendation none; preference off",
+          "recall on; recommendation same-task; preference off"
+        ],
+        "scopesLeft": [
+          "none",
+          "same-task"
+        ],
+        "disagreement": 0.0625
+      }
+    ],
+    "requests": 16,
+    "invariantRequests": 12,
+    "informativeRequests": 4,
+    "distinctPatterns": 3,
+    "lowerBound": 3,
+    "minimumIdentifying": 3,
+    "identifyingSet": [
+      "recall, original person, other task",
+      "recommendation, original person, original task",
+      "recommendation, original person, other task"
+    ],
+    "adaptiveWorstCaseAnswers": 3,
+    "adaptiveTests": [
+      "recall, original person, original task",
+      "recommendation, original person, original task"
+    ],
+    "adaptiveLeaves": [
+      "recall on; recommendation same-task; preference off",
+      "recall on; recommendation same-person; preference off"
+    ],
+    "transferLeaves": [
+      "recall off; recommendation same-task; preference off",
+      "recall on; recommendation same-task; preference off"
+    ]
+  },
+  {
+    "id": "office",
+    "type": "single-choice",
+    "rules": 6,
+    "authoredGrid": [
+      {
+        "recall": false,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": true,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": true,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": true,
+        "intended": true
+      },
+      {
+        "recall": true,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": true,
+        "intended": false
+      }
+    ],
+    "adaptiveGrid": [
+      {
+        "recall": false,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": true,
+        "intended": true
+      },
+      {
+        "recall": true,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": true,
+        "intended": false
+      }
+    ],
+    "transferGrid": [
+      {
+        "recall": false,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": true,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": true,
+        "intended": true
+      },
+      {
+        "recall": true,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      }
+    ],
+    "adaptiveFirstTies": [
+      "recall, original person, other task"
+    ],
+    "adaptiveSecondChoices": [
+      {
+        "test": "recommendation, original person, original task",
+        "leaves": [
+          "recall on; recommendation same-task; preference off",
+          "recall on; recommendation same-person; preference off"
+        ],
+        "grid": [
+          {
+            "recall": false,
+            "recommendation": "none",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": false,
+            "recommendation": "same-task",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": false,
+            "recommendation": "same-person",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": true,
+            "recommendation": "none",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": true,
+            "recommendation": "same-task",
+            "preference": false,
+            "compatible": true,
+            "intended": true
+          },
+          {
+            "recall": true,
+            "recommendation": "same-person",
+            "preference": false,
+            "compatible": true,
+            "intended": false
+          }
+        ]
+      },
+      {
+        "test": "recommendation, original person, other task",
+        "leaves": [
+          "recall on; recommendation none; preference off",
+          "recall on; recommendation same-task; preference off"
+        ],
+        "grid": [
+          {
+            "recall": false,
+            "recommendation": "none",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": false,
+            "recommendation": "same-task",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": false,
+            "recommendation": "same-person",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": true,
+            "recommendation": "none",
+            "preference": false,
+            "compatible": true,
+            "intended": false
+          },
+          {
+            "recall": true,
+            "recommendation": "same-task",
+            "preference": false,
+            "compatible": true,
+            "intended": true
+          },
+          {
+            "recall": true,
+            "recommendation": "same-person",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          }
+        ]
+      }
+    ],
+    "adaptivePaths": [
+      {
+        "tests": [
+          "recall, original person, other task",
+          "recommendation, original person, original task"
+        ],
+        "leaves": [
+          "recall on; recommendation same-task; preference off",
+          "recall on; recommendation same-person; preference off"
+        ],
+        "scopesLeft": [
+          "same-task",
+          "same-person"
+        ],
+        "disagreement": 0.0625
+      },
+      {
+        "tests": [
+          "recall, original person, other task",
+          "recommendation, original person, other task"
+        ],
+        "leaves": [
+          "recall on; recommendation none; preference off",
+          "recall on; recommendation same-task; preference off"
+        ],
+        "scopesLeft": [
+          "none",
+          "same-task"
+        ],
+        "disagreement": 0.0625
+      }
+    ],
+    "requests": 16,
+    "invariantRequests": 12,
+    "informativeRequests": 4,
+    "distinctPatterns": 3,
+    "lowerBound": 3,
+    "minimumIdentifying": 3,
+    "identifyingSet": [
+      "recall, original person, other task",
+      "recommendation, original person, original task",
+      "recommendation, original person, other task"
+    ],
+    "adaptiveWorstCaseAnswers": 3,
+    "adaptiveTests": [
+      "recall, original person, original task",
+      "recommendation, original person, original task"
+    ],
+    "adaptiveLeaves": [
+      "recall on; recommendation same-task; preference off",
+      "recall on; recommendation same-person; preference off"
+    ],
+    "transferLeaves": [
+      "recall off; recommendation same-task; preference off",
+      "recall on; recommendation same-task; preference off"
+    ]
+  },
+  {
+    "id": "dessert",
+    "type": "single-choice",
+    "rules": 6,
+    "authoredGrid": [
+      {
+        "recall": false,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": true,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": true,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": true,
+        "intended": true
+      },
+      {
+        "recall": true,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": true,
+        "intended": false
+      }
+    ],
+    "adaptiveGrid": [
+      {
+        "recall": false,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": true,
+        "intended": true
+      },
+      {
+        "recall": true,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": true,
+        "intended": false
+      }
+    ],
+    "transferGrid": [
+      {
+        "recall": false,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": true,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": true,
+        "intended": true
+      },
+      {
+        "recall": true,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      }
+    ],
+    "adaptiveFirstTies": [
+      "recall, original person, other task"
+    ],
+    "adaptiveSecondChoices": [
+      {
+        "test": "recommendation, original person, original task",
+        "leaves": [
+          "recall on; recommendation same-task; preference off",
+          "recall on; recommendation same-person; preference off"
+        ],
+        "grid": [
+          {
+            "recall": false,
+            "recommendation": "none",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": false,
+            "recommendation": "same-task",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": false,
+            "recommendation": "same-person",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": true,
+            "recommendation": "none",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": true,
+            "recommendation": "same-task",
+            "preference": false,
+            "compatible": true,
+            "intended": true
+          },
+          {
+            "recall": true,
+            "recommendation": "same-person",
+            "preference": false,
+            "compatible": true,
+            "intended": false
+          }
+        ]
+      },
+      {
+        "test": "recommendation, original person, other task",
+        "leaves": [
+          "recall on; recommendation none; preference off",
+          "recall on; recommendation same-task; preference off"
+        ],
+        "grid": [
+          {
+            "recall": false,
+            "recommendation": "none",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": false,
+            "recommendation": "same-task",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": false,
+            "recommendation": "same-person",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": true,
+            "recommendation": "none",
+            "preference": false,
+            "compatible": true,
+            "intended": false
+          },
+          {
+            "recall": true,
+            "recommendation": "same-task",
+            "preference": false,
+            "compatible": true,
+            "intended": true
+          },
+          {
+            "recall": true,
+            "recommendation": "same-person",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          }
+        ]
+      }
+    ],
+    "adaptivePaths": [
+      {
+        "tests": [
+          "recall, original person, other task",
+          "recommendation, original person, original task"
+        ],
+        "leaves": [
+          "recall on; recommendation same-task; preference off",
+          "recall on; recommendation same-person; preference off"
+        ],
+        "scopesLeft": [
+          "same-task",
+          "same-person"
+        ],
+        "disagreement": 0.0625
+      },
+      {
+        "tests": [
+          "recall, original person, other task",
+          "recommendation, original person, other task"
+        ],
+        "leaves": [
+          "recall on; recommendation none; preference off",
+          "recall on; recommendation same-task; preference off"
+        ],
+        "scopesLeft": [
+          "none",
+          "same-task"
+        ],
+        "disagreement": 0.0625
+      }
+    ],
+    "requests": 16,
+    "invariantRequests": 12,
+    "informativeRequests": 4,
+    "distinctPatterns": 3,
+    "lowerBound": 3,
+    "minimumIdentifying": 3,
+    "identifyingSet": [
+      "recall, original person, other task",
+      "recommendation, original person, original task",
+      "recommendation, original person, other task"
+    ],
+    "adaptiveWorstCaseAnswers": 3,
+    "adaptiveTests": [
+      "recall, original person, original task",
+      "recommendation, original person, original task"
+    ],
+    "adaptiveLeaves": [
+      "recall on; recommendation same-task; preference off",
+      "recall on; recommendation same-person; preference off"
+    ],
+    "transferLeaves": [
+      "recall off; recommendation same-task; preference off",
+      "recall on; recommendation same-task; preference off"
+    ]
+  },
+  {
+    "id": "lighting",
+    "type": "explicit-preference",
+    "rules": 12,
+    "authoredGrid": [
+      {
+        "recall": false,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "none",
+        "preference": true,
+        "compatible": true,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-task",
+        "preference": true,
+        "compatible": true,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-person",
+        "preference": true,
+        "compatible": true,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "none",
+        "preference": true,
+        "compatible": true,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-task",
+        "preference": true,
+        "compatible": true,
+        "intended": true
+      },
+      {
+        "recall": true,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-person",
+        "preference": true,
+        "compatible": true,
+        "intended": false
+      }
+    ],
+    "adaptiveGrid": [
+      {
+        "recall": false,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "none",
+        "preference": true,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-task",
+        "preference": true,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-person",
+        "preference": true,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "none",
+        "preference": true,
+        "compatible": true,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-task",
+        "preference": true,
+        "compatible": true,
+        "intended": true
+      },
+      {
+        "recall": true,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-person",
+        "preference": true,
+        "compatible": true,
+        "intended": false
+      }
+    ],
+    "transferGrid": [
+      {
+        "recall": false,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "none",
+        "preference": true,
+        "compatible": true,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-task",
+        "preference": true,
+        "compatible": true,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-person",
+        "preference": true,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "none",
+        "preference": true,
+        "compatible": true,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-task",
+        "preference": true,
+        "compatible": true,
+        "intended": true
+      },
+      {
+        "recall": true,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-person",
+        "preference": true,
+        "compatible": false,
+        "intended": false
+      }
+    ],
+    "adaptiveFirstTies": [
+      "recall, original person, other task",
+      "preference, original person, original task"
+    ],
+    "adaptiveSecondChoices": [
+      {
+        "test": "preference, original person, original task",
+        "leaves": [
+          "recall on; recommendation none; preference on",
+          "recall on; recommendation same-task; preference on",
+          "recall on; recommendation same-person; preference on"
+        ],
+        "grid": [
+          {
+            "recall": false,
+            "recommendation": "none",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": false,
+            "recommendation": "none",
+            "preference": true,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": false,
+            "recommendation": "same-task",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": false,
+            "recommendation": "same-task",
+            "preference": true,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": false,
+            "recommendation": "same-person",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": false,
+            "recommendation": "same-person",
+            "preference": true,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": true,
+            "recommendation": "none",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": true,
+            "recommendation": "none",
+            "preference": true,
+            "compatible": true,
+            "intended": false
+          },
+          {
+            "recall": true,
+            "recommendation": "same-task",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": true,
+            "recommendation": "same-task",
+            "preference": true,
+            "compatible": true,
+            "intended": true
+          },
+          {
+            "recall": true,
+            "recommendation": "same-person",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": true,
+            "recommendation": "same-person",
+            "preference": true,
+            "compatible": true,
+            "intended": false
+          }
+        ]
+      }
+    ],
+    "adaptivePaths": [
+      {
+        "tests": [
+          "recall, original person, other task",
+          "preference, original person, original task"
+        ],
+        "leaves": [
+          "recall on; recommendation none; preference on",
+          "recall on; recommendation same-task; preference on",
+          "recall on; recommendation same-person; preference on"
+        ],
+        "scopesLeft": [
+          "none",
+          "same-task",
+          "same-person"
+        ],
+        "disagreement": 0.08333333333333333
+      },
+      {
+        "tests": [
+          "preference, original person, original task",
+          "recall, original person, other task"
+        ],
+        "leaves": [
+          "recall on; recommendation none; preference on",
+          "recall on; recommendation same-task; preference on",
+          "recall on; recommendation same-person; preference on"
+        ],
+        "scopesLeft": [
+          "none",
+          "same-task",
+          "same-person"
+        ],
+        "disagreement": 0.08333333333333333
+      }
+    ],
+    "requests": 16,
+    "invariantRequests": 11,
+    "informativeRequests": 5,
+    "distinctPatterns": 4,
+    "lowerBound": 4,
+    "minimumIdentifying": 4,
+    "identifyingSet": [
+      "recall, original person, other task",
+      "recommendation, original person, original task",
+      "recommendation, original person, other task",
+      "preference, original person, original task"
+    ],
+    "adaptiveWorstCaseAnswers": 4,
+    "adaptiveTests": [
+      "recall, original person, original task",
+      "preference, original person, original task"
+    ],
+    "adaptiveLeaves": [
+      "recall on; recommendation none; preference on",
+      "recall on; recommendation same-task; preference on",
+      "recall on; recommendation same-person; preference on"
+    ],
+    "transferLeaves": [
+      "recall off; recommendation none; preference on",
+      "recall off; recommendation same-task; preference on",
+      "recall on; recommendation none; preference on",
+      "recall on; recommendation same-task; preference on"
+    ]
+  },
+  {
+    "id": "coffee",
+    "type": "explicit-preference",
+    "rules": 12,
+    "authoredGrid": [
+      {
+        "recall": false,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "none",
+        "preference": true,
+        "compatible": true,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-task",
+        "preference": true,
+        "compatible": true,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-person",
+        "preference": true,
+        "compatible": true,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "none",
+        "preference": true,
+        "compatible": true,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-task",
+        "preference": true,
+        "compatible": true,
+        "intended": true
+      },
+      {
+        "recall": true,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-person",
+        "preference": true,
+        "compatible": true,
+        "intended": false
+      }
+    ],
+    "adaptiveGrid": [
+      {
+        "recall": false,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "none",
+        "preference": true,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-task",
+        "preference": true,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-person",
+        "preference": true,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "none",
+        "preference": true,
+        "compatible": true,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-task",
+        "preference": true,
+        "compatible": true,
+        "intended": true
+      },
+      {
+        "recall": true,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-person",
+        "preference": true,
+        "compatible": true,
+        "intended": false
+      }
+    ],
+    "transferGrid": [
+      {
+        "recall": false,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "none",
+        "preference": true,
+        "compatible": true,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-task",
+        "preference": true,
+        "compatible": true,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-person",
+        "preference": true,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "none",
+        "preference": true,
+        "compatible": true,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-task",
+        "preference": true,
+        "compatible": true,
+        "intended": true
+      },
+      {
+        "recall": true,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-person",
+        "preference": true,
+        "compatible": false,
+        "intended": false
+      }
+    ],
+    "adaptiveFirstTies": [
+      "recall, original person, other task",
+      "preference, original person, original task"
+    ],
+    "adaptiveSecondChoices": [
+      {
+        "test": "preference, original person, original task",
+        "leaves": [
+          "recall on; recommendation none; preference on",
+          "recall on; recommendation same-task; preference on",
+          "recall on; recommendation same-person; preference on"
+        ],
+        "grid": [
+          {
+            "recall": false,
+            "recommendation": "none",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": false,
+            "recommendation": "none",
+            "preference": true,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": false,
+            "recommendation": "same-task",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": false,
+            "recommendation": "same-task",
+            "preference": true,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": false,
+            "recommendation": "same-person",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": false,
+            "recommendation": "same-person",
+            "preference": true,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": true,
+            "recommendation": "none",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": true,
+            "recommendation": "none",
+            "preference": true,
+            "compatible": true,
+            "intended": false
+          },
+          {
+            "recall": true,
+            "recommendation": "same-task",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": true,
+            "recommendation": "same-task",
+            "preference": true,
+            "compatible": true,
+            "intended": true
+          },
+          {
+            "recall": true,
+            "recommendation": "same-person",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": true,
+            "recommendation": "same-person",
+            "preference": true,
+            "compatible": true,
+            "intended": false
+          }
+        ]
+      }
+    ],
+    "adaptivePaths": [
+      {
+        "tests": [
+          "recall, original person, other task",
+          "preference, original person, original task"
+        ],
+        "leaves": [
+          "recall on; recommendation none; preference on",
+          "recall on; recommendation same-task; preference on",
+          "recall on; recommendation same-person; preference on"
+        ],
+        "scopesLeft": [
+          "none",
+          "same-task",
+          "same-person"
+        ],
+        "disagreement": 0.08333333333333333
+      },
+      {
+        "tests": [
+          "preference, original person, original task",
+          "recall, original person, other task"
+        ],
+        "leaves": [
+          "recall on; recommendation none; preference on",
+          "recall on; recommendation same-task; preference on",
+          "recall on; recommendation same-person; preference on"
+        ],
+        "scopesLeft": [
+          "none",
+          "same-task",
+          "same-person"
+        ],
+        "disagreement": 0.08333333333333333
+      }
+    ],
+    "requests": 16,
+    "invariantRequests": 11,
+    "informativeRequests": 5,
+    "distinctPatterns": 4,
+    "lowerBound": 4,
+    "minimumIdentifying": 4,
+    "identifyingSet": [
+      "recall, original person, other task",
+      "recommendation, original person, original task",
+      "recommendation, original person, other task",
+      "preference, original person, original task"
+    ],
+    "adaptiveWorstCaseAnswers": 4,
+    "adaptiveTests": [
+      "recall, original person, original task",
+      "preference, original person, original task"
+    ],
+    "adaptiveLeaves": [
+      "recall on; recommendation none; preference on",
+      "recall on; recommendation same-task; preference on",
+      "recall on; recommendation same-person; preference on"
+    ],
+    "transferLeaves": [
+      "recall off; recommendation none; preference on",
+      "recall off; recommendation same-task; preference on",
+      "recall on; recommendation none; preference on",
+      "recall on; recommendation same-task; preference on"
+    ]
+  },
+  {
+    "id": "reading",
+    "type": "explicit-preference",
+    "rules": 12,
+    "authoredGrid": [
+      {
+        "recall": false,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "none",
+        "preference": true,
+        "compatible": true,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-task",
+        "preference": true,
+        "compatible": true,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-person",
+        "preference": true,
+        "compatible": true,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "none",
+        "preference": true,
+        "compatible": true,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-task",
+        "preference": true,
+        "compatible": true,
+        "intended": true
+      },
+      {
+        "recall": true,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-person",
+        "preference": true,
+        "compatible": true,
+        "intended": false
+      }
+    ],
+    "adaptiveGrid": [
+      {
+        "recall": false,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "none",
+        "preference": true,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-task",
+        "preference": true,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-person",
+        "preference": true,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "none",
+        "preference": true,
+        "compatible": true,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-task",
+        "preference": true,
+        "compatible": true,
+        "intended": true
+      },
+      {
+        "recall": true,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-person",
+        "preference": true,
+        "compatible": true,
+        "intended": false
+      }
+    ],
+    "transferGrid": [
+      {
+        "recall": false,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "none",
+        "preference": true,
+        "compatible": true,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-task",
+        "preference": true,
+        "compatible": true,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-person",
+        "preference": true,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "none",
+        "preference": true,
+        "compatible": true,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-task",
+        "preference": true,
+        "compatible": true,
+        "intended": true
+      },
+      {
+        "recall": true,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-person",
+        "preference": true,
+        "compatible": false,
+        "intended": false
+      }
+    ],
+    "adaptiveFirstTies": [
+      "recall, original person, other task",
+      "preference, original person, original task"
+    ],
+    "adaptiveSecondChoices": [
+      {
+        "test": "preference, original person, original task",
+        "leaves": [
+          "recall on; recommendation none; preference on",
+          "recall on; recommendation same-task; preference on",
+          "recall on; recommendation same-person; preference on"
+        ],
+        "grid": [
+          {
+            "recall": false,
+            "recommendation": "none",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": false,
+            "recommendation": "none",
+            "preference": true,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": false,
+            "recommendation": "same-task",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": false,
+            "recommendation": "same-task",
+            "preference": true,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": false,
+            "recommendation": "same-person",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": false,
+            "recommendation": "same-person",
+            "preference": true,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": true,
+            "recommendation": "none",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": true,
+            "recommendation": "none",
+            "preference": true,
+            "compatible": true,
+            "intended": false
+          },
+          {
+            "recall": true,
+            "recommendation": "same-task",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": true,
+            "recommendation": "same-task",
+            "preference": true,
+            "compatible": true,
+            "intended": true
+          },
+          {
+            "recall": true,
+            "recommendation": "same-person",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": true,
+            "recommendation": "same-person",
+            "preference": true,
+            "compatible": true,
+            "intended": false
+          }
+        ]
+      }
+    ],
+    "adaptivePaths": [
+      {
+        "tests": [
+          "recall, original person, other task",
+          "preference, original person, original task"
+        ],
+        "leaves": [
+          "recall on; recommendation none; preference on",
+          "recall on; recommendation same-task; preference on",
+          "recall on; recommendation same-person; preference on"
+        ],
+        "scopesLeft": [
+          "none",
+          "same-task",
+          "same-person"
+        ],
+        "disagreement": 0.08333333333333333
+      },
+      {
+        "tests": [
+          "preference, original person, original task",
+          "recall, original person, other task"
+        ],
+        "leaves": [
+          "recall on; recommendation none; preference on",
+          "recall on; recommendation same-task; preference on",
+          "recall on; recommendation same-person; preference on"
+        ],
+        "scopesLeft": [
+          "none",
+          "same-task",
+          "same-person"
+        ],
+        "disagreement": 0.08333333333333333
+      }
+    ],
+    "requests": 16,
+    "invariantRequests": 11,
+    "informativeRequests": 5,
+    "distinctPatterns": 4,
+    "lowerBound": 4,
+    "minimumIdentifying": 4,
+    "identifyingSet": [
+      "recall, original person, other task",
+      "recommendation, original person, original task",
+      "recommendation, original person, other task",
+      "preference, original person, original task"
+    ],
+    "adaptiveWorstCaseAnswers": 4,
+    "adaptiveTests": [
+      "recall, original person, original task",
+      "preference, original person, original task"
+    ],
+    "adaptiveLeaves": [
+      "recall on; recommendation none; preference on",
+      "recall on; recommendation same-task; preference on",
+      "recall on; recommendation same-person; preference on"
+    ],
+    "transferLeaves": [
+      "recall off; recommendation none; preference on",
+      "recall off; recommendation same-task; preference on",
+      "recall on; recommendation none; preference on",
+      "recall on; recommendation same-task; preference on"
+    ]
+  },
+  {
+    "id": "travel",
+    "type": "explicit-preference",
+    "rules": 12,
+    "authoredGrid": [
+      {
+        "recall": false,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "none",
+        "preference": true,
+        "compatible": true,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-task",
+        "preference": true,
+        "compatible": true,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-person",
+        "preference": true,
+        "compatible": true,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "none",
+        "preference": true,
+        "compatible": true,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-task",
+        "preference": true,
+        "compatible": true,
+        "intended": true
+      },
+      {
+        "recall": true,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-person",
+        "preference": true,
+        "compatible": true,
+        "intended": false
+      }
+    ],
+    "adaptiveGrid": [
+      {
+        "recall": false,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "none",
+        "preference": true,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-task",
+        "preference": true,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-person",
+        "preference": true,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "none",
+        "preference": true,
+        "compatible": true,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-task",
+        "preference": true,
+        "compatible": true,
+        "intended": true
+      },
+      {
+        "recall": true,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-person",
+        "preference": true,
+        "compatible": true,
+        "intended": false
+      }
+    ],
+    "transferGrid": [
+      {
+        "recall": false,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "none",
+        "preference": true,
+        "compatible": true,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-task",
+        "preference": true,
+        "compatible": true,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": false,
+        "recommendation": "same-person",
+        "preference": true,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "none",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "none",
+        "preference": true,
+        "compatible": true,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-task",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-task",
+        "preference": true,
+        "compatible": true,
+        "intended": true
+      },
+      {
+        "recall": true,
+        "recommendation": "same-person",
+        "preference": false,
+        "compatible": false,
+        "intended": false
+      },
+      {
+        "recall": true,
+        "recommendation": "same-person",
+        "preference": true,
+        "compatible": false,
+        "intended": false
+      }
+    ],
+    "adaptiveFirstTies": [
+      "recall, original person, other task",
+      "preference, original person, original task"
+    ],
+    "adaptiveSecondChoices": [
+      {
+        "test": "preference, original person, original task",
+        "leaves": [
+          "recall on; recommendation none; preference on",
+          "recall on; recommendation same-task; preference on",
+          "recall on; recommendation same-person; preference on"
+        ],
+        "grid": [
+          {
+            "recall": false,
+            "recommendation": "none",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": false,
+            "recommendation": "none",
+            "preference": true,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": false,
+            "recommendation": "same-task",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": false,
+            "recommendation": "same-task",
+            "preference": true,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": false,
+            "recommendation": "same-person",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": false,
+            "recommendation": "same-person",
+            "preference": true,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": true,
+            "recommendation": "none",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": true,
+            "recommendation": "none",
+            "preference": true,
+            "compatible": true,
+            "intended": false
+          },
+          {
+            "recall": true,
+            "recommendation": "same-task",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": true,
+            "recommendation": "same-task",
+            "preference": true,
+            "compatible": true,
+            "intended": true
+          },
+          {
+            "recall": true,
+            "recommendation": "same-person",
+            "preference": false,
+            "compatible": false,
+            "intended": false
+          },
+          {
+            "recall": true,
+            "recommendation": "same-person",
+            "preference": true,
+            "compatible": true,
+            "intended": false
+          }
+        ]
+      }
+    ],
+    "adaptivePaths": [
+      {
+        "tests": [
+          "recall, original person, other task",
+          "preference, original person, original task"
+        ],
+        "leaves": [
+          "recall on; recommendation none; preference on",
+          "recall on; recommendation same-task; preference on",
+          "recall on; recommendation same-person; preference on"
+        ],
+        "scopesLeft": [
+          "none",
+          "same-task",
+          "same-person"
+        ],
+        "disagreement": 0.08333333333333333
+      },
+      {
+        "tests": [
+          "preference, original person, original task",
+          "recall, original person, other task"
+        ],
+        "leaves": [
+          "recall on; recommendation none; preference on",
+          "recall on; recommendation same-task; preference on",
+          "recall on; recommendation same-person; preference on"
+        ],
+        "scopesLeft": [
+          "none",
+          "same-task",
+          "same-person"
+        ],
+        "disagreement": 0.08333333333333333
+      }
+    ],
+    "requests": 16,
+    "invariantRequests": 11,
+    "informativeRequests": 5,
+    "distinctPatterns": 4,
+    "lowerBound": 4,
+    "minimumIdentifying": 4,
+    "identifyingSet": [
+      "recall, original person, other task",
+      "recommendation, original person, original task",
+      "recommendation, original person, other task",
+      "preference, original person, original task"
+    ],
+    "adaptiveWorstCaseAnswers": 4,
+    "adaptiveTests": [
+      "recall, original person, original task",
+      "preference, original person, original task"
+    ],
+    "adaptiveLeaves": [
+      "recall on; recommendation none; preference on",
+      "recall on; recommendation same-task; preference on",
+      "recall on; recommendation same-person; preference on"
+    ],
+    "transferLeaves": [
+      "recall off; recommendation none; preference on",
+      "recall off; recommendation same-task; preference on",
+      "recall on; recommendation none; preference on",
+      "recall on; recommendation same-task; preference on"
+    ]
+  }
+]

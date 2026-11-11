@@ -49,6 +49,10 @@ node launch.mjs interface             # survey in practice mode
 
 All scenarios are fictional. Survey responses are not published, because they include participants' written answers; `research/analysis/results/survey-pilot.json` holds the aggregate counts reported in the paper, produced by `analysis/11-survey-pilot.py`. No identifying information was collected.
 
+## License
+
+MIT, see [`LICENSE`](LICENSE). `research/paper/acmart.cls` and `ACM-Reference-Format.bst` are ACM's template files and keep their own licence.
+
 ## AI use
 
 Generative AI tools (OpenAI Codex and Anthropic Claude) were used to write the code, author the fictional fixtures and provisional labels, run the archived model calls, and draft and edit the paper. The authors reviewed the work and are responsible for it.
